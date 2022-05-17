@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -4054,15 +4054,15 @@ TextureImporter:
       '[Base]WorldMap_pipo_172': 1990649062
       '[Base]WorldMap_pipo_26': 323328499
       '[Base]WorldMap_pipo_165': 1203764370
+      '[Base]WorldMap_pipo_106': -1863098246
       '[Base]WorldMap_pipo_58': 909320617
       '[Base]WorldMap_pipo_146': -1962873016
       '[Base]WorldMap_pipo_32': -2143930208
-      '[Base]WorldMap_pipo_19': -1340136925
-      '[Base]WorldMap_pipo_10': 1420154098
-      '[Base]WorldMap_pipo_94': -1098605819
       '[Base]WorldMap_pipo_93': -1183853667
+      '[Base]WorldMap_pipo_19': -1340136925
+      '[Base]WorldMap_pipo_94': -1098605819
+      '[Base]WorldMap_pipo_10': 1420154098
       '[Base]WorldMap_pipo_0': -762820497
-      '[Base]WorldMap_pipo_106': -1863098246
       '[Base]WorldMap_pipo_100': 559497782
       '[Base]WorldMap_pipo_181': 1372987222
       '[Base]WorldMap_pipo_108': -1145301284
@@ -4143,12 +4143,12 @@ TextureImporter:
       '[Base]WorldMap_pipo_69': 1393593424
       '[Base]WorldMap_pipo_76': 978926236
       '[Base]WorldMap_pipo_99': 2086262593
+      '[Base]WorldMap_pipo_121': -499986364
       '[Base]WorldMap_pipo_77': -734432159
       '[Base]WorldMap_pipo_12': 1885341283
       '[Base]WorldMap_pipo_110': -1774841165
       '[Base]WorldMap_pipo_127': 604667083
       '[Base]WorldMap_pipo_54': -695168909
-      '[Base]WorldMap_pipo_121': -499986364
       '[Base]WorldMap_pipo_53': 876365424
       '[Base]WorldMap_pipo_51': -1994584737
       '[Base]WorldMap_pipo_25': 909046657
