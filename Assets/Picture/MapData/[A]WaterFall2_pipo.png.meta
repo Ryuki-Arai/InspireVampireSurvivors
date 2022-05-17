@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -558,7 +558,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[A]WaterFall2_pipo_14': 393385643
+      '[A]WaterFall2_pipo_13': -1763892281
       '[A]WaterFall2_pipo_3': 1904520553
       '[A]WaterFall2_pipo_12': 974153346
       '[A]WaterFall2_pipo_16': 1513432216
@@ -576,8 +576,8 @@ TextureImporter:
       '[A]WaterFall2_pipo_6': 63231067
       '[A]WaterFall2_pipo_10': -1374367246
       '[A]WaterFall2_pipo_4': 1122255191
+      '[A]WaterFall2_pipo_14': 393385643
       '[A]WaterFall2_pipo_8': -72164143
-      '[A]WaterFall2_pipo_13': -1763892281
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
