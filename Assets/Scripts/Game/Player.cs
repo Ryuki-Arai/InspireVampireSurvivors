@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     [SerializeField] Transform _root = null;
     Rigidbody2D _rb2d;
     Animator _anim = default;
-    Vector2 verocity;
 
     float _timer = 0.0f;
 
@@ -38,7 +37,7 @@ public class Player : MonoBehaviour
         float v = Input.GetAxis("Vertical");
 
         Vector2 dir = new Vector2(h, v);
-        verocity = dir.normalized * _speed;
+        Vector2 verocity = dir.normalized * _speed;
         _rb2d.velocity = verocity;
 
         //transform.position += new Vector3(h * _speed * Time.deltaTime, v * _speed * Time.deltaTime, 0);

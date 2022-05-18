@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87239d2f7ac10f94bb873ea471367a52
+guid: 13ae14bef0342d44ab92184d726ad4d3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_0'
+      name: '[Monster]Bat_pochi_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 16
-        height: 16
+        y: 72
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7642db5d4cc20a742ab3d19e51b97c4d
-      internalID: -1662573944
+      spriteID: bd9d630756355254a9e344ca8e0f435f
+      internalID: 71535328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_1'
+      name: '[Monster]Bat_pochi_1'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 20
+        y: 72
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af19f1456de825b49955b2ef1cf7b56f
-      internalID: 1378226536
+      spriteID: 2534b932a015e8843acf22d4ea20f49b
+      internalID: 587302409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_2'
+      name: '[Monster]Bat_pochi_2'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 40
+        y: 72
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e46e8ffe1fbe3e4b8cc6f3ab4ad4fd3
-      internalID: 1140671038
+      spriteID: 37676bf45fd3fd64abcdcbf86a4741c2
+      internalID: -1533826522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_3'
+      name: '[Monster]Bat_pochi_3'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 60
+        y: 72
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f10863efc71255489009678b5a5113a
-      internalID: 1904520553
+      spriteID: aef723d28a80e384782e58c7a8bc9059
+      internalID: 75813771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_4'
+      name: '[Monster]Bat_pochi_4'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4ea00ba88925f4c92cfb61dfcac92a
+      internalID: 418260803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_5'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 72
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6332ab9b5e0b7b469e5ddbc3dc5301a
+      internalID: -1563486688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_6'
       rect:
         serializedVersion: 2
         x: 0
         y: 48
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a9e842f2c340049bb3963d8c2c6bb6
-      internalID: 1122255191
+      spriteID: d6feabc5b41b5314da164dc8390797f3
+      internalID: 114079128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_5'
+      name: '[Monster]Bat_pochi_7'
       rect:
         serializedVersion: 2
-        x: 16
+        x: 20
         y: 48
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720f9d0d7728cc141b50742d96f3c166
-      internalID: 1987785120
+      spriteID: aaa26b50e3a063844a5e61efcea6285a
+      internalID: -1738784188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_6'
+      name: '[Monster]Bat_pochi_8'
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 48
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a0a7f121ffc1e42a4f9ba0a40bf7f5
-      internalID: 63231067
+      spriteID: 673464427284c5147be1286e990d014d
+      internalID: -799322093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_7'
+      name: '[Monster]Bat_pochi_9'
       rect:
         serializedVersion: 2
-        x: 48
+        x: 60
         y: 48
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +331,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f0689376503f548b67067bf576e59e
-      internalID: 152008420
+      spriteID: 4da58da65f025c9478f9e11376aa94cd
+      internalID: -1597563563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_8'
+      name: '[Monster]Bat_pochi_10'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d8012955b834a4cbad8c80e1fffe20
+      internalID: -576323224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_11'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c6966d005ed434ab3b83a59327eea4
+      internalID: 1323751624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_12'
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c323755c17d389449073fd41a8328a7
-      internalID: -72164143
+      spriteID: d978e0311b5b3414d816cb2dc5a55586
+      internalID: 1126193597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_9'
+      name: '[Monster]Bat_pochi_13'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 20
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1e209eeb9b8c746a77fac07cfa9fb0
-      internalID: -554551909
+      spriteID: 6090ceabadd41a94cbf4a85472d579fc
+      internalID: -1111215873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_10'
+      name: '[Monster]Bat_pochi_14'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 40
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b66168a168edd8409222e0459ad9f18
-      internalID: -1374367246
+      spriteID: 1e0eca5280895f445a80d744a9bdf8ba
+      internalID: -1021664210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_11'
+      name: '[Monster]Bat_pochi_15'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 60
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a867561d4caaa644923119c0c4d9586
-      internalID: 1077721949
+      spriteID: 3cfede28873a2f54590dc86f5d858ca1
+      internalID: -1796495077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_12'
+      name: '[Monster]Bat_pochi_16'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 80
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +478,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a245144eb95fe40b65c907c42531c8
-      internalID: 974153346
+      spriteID: a43a72a37c0ac2941b1e4d4e049da972
+      internalID: 313995248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_13'
+      name: '[Monster]Bat_pochi_17'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 100
+        y: 24
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,62 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9f681882a057841ba4260326bb05ba
-      internalID: -1763892281
+      spriteID: 6b3a588115594c74586b40fb1bb2e297
+      internalID: 773571807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_14'
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c60f6cd25eddacc478bd0125176c2dcb
-      internalID: 393385643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_15'
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73dbee716e966b246ae49c845d29aae6
-      internalID: 222958966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_16'
+      name: '[Monster]Bat_pochi_18'
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70811110df11054f892f47496c507a3
-      internalID: 1513432216
+      spriteID: 0a7c83e7395e6ab4d86f60e229c3bc52
+      internalID: 127628736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_17'
+      name: '[Monster]Bat_pochi_19'
       rect:
         serializedVersion: 2
-        x: 16
+        x: 20
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedc2144462dbda4c89b4820cbcd5525
-      internalID: -752734441
+      spriteID: baf849cfd7f798a4c85e215c4c8c4517
+      internalID: -621801302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_18'
+      name: '[Monster]Bat_pochi_20'
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90b1e9729257f114abf3f5cf2728c407
-      internalID: 1455508460
+      spriteID: b56eb11997ed0934a9324bbd336dd357
+      internalID: 1272435991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_19'
+      name: '[Monster]Bat_pochi_21'
       rect:
         serializedVersion: 2
-        x: 48
+        x: 60
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,8 +583,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b47fb8256300d0478fe8d5c6ec7dc10
-      internalID: 2131285761
+      spriteID: f097a34f81bc4e244a41c1bc4f2f146f
+      internalID: 52186891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_22'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56fb6dd4280d54ca1b6cce15eb56f0
+      internalID: 255289800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Bat_pochi_23'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bbdd43a3fc8c04b8e7f79bc1de6410
+      internalID: 473817107
       vertices: []
       indices: 
       edges: []
@@ -558,26 +642,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[A]WaterFall2_pipo_14': 393385643
-      '[A]WaterFall2_pipo_3': 1904520553
-      '[A]WaterFall2_pipo_12': 974153346
-      '[A]WaterFall2_pipo_16': 1513432216
-      '[A]WaterFall2_pipo_7': 152008420
-      '[A]WaterFall2_pipo_17': -752734441
-      '[A]WaterFall2_pipo_19': 2131285761
-      '[A]WaterFall2_pipo_2': 1140671038
-      '[A]WaterFall2_pipo_0': -1662573944
-      '[A]WaterFall2_pipo_18': 1455508460
-      '[A]WaterFall2_pipo_9': -554551909
-      '[A]WaterFall2_pipo_15': 222958966
-      '[A]WaterFall2_pipo_5': 1987785120
-      '[A]WaterFall2_pipo_1': 1378226536
-      '[A]WaterFall2_pipo_11': 1077721949
-      '[A]WaterFall2_pipo_6': 63231067
-      '[A]WaterFall2_pipo_10': -1374367246
-      '[A]WaterFall2_pipo_4': 1122255191
-      '[A]WaterFall2_pipo_8': -72164143
-      '[A]WaterFall2_pipo_13': -1763892281
+      '[Monster]Bat_pochi_16': 313995248
+      '[Monster]Bat_pochi_1': 587302409
+      '[Monster]Bat_pochi_9': -1597563563
+      '[Monster]Bat_pochi_14': -1021664210
+      '[Monster]Bat_pochi_8': -799322093
+      '[Monster]Bat_pochi_10': -576323224
+      '[Monster]Bat_pochi_15': -1796495077
+      '[Monster]Bat_pochi_18': 127628736
+      '[Monster]Bat_pochi_13': -1111215873
+      '[Monster]Bat_pochi_20': 1272435991
+      '[Monster]Bat_pochi_0': 71535328
+      '[Monster]Bat_pochi_22': 255289800
+      '[Monster]Bat_pochi_4': 418260803
+      '[Monster]Bat_pochi_7': -1738784188
+      '[Monster]Bat_pochi_19': -621801302
+      '[Monster]Bat_pochi_3': 75813771
+      '[Monster]Bat_pochi_17': 773571807
+      '[Monster]Bat_pochi_2': -1533826522
+      '[Monster]Bat_pochi_5': -1563486688
+      '[Monster]Bat_pochi_23': 473817107
+      '[Monster]Bat_pochi_21': 52186891
+      '[Monster]Bat_pochi_6': 114079128
+      '[Monster]Bat_pochi_12': 1126193597
+      '[Monster]Bat_pochi_11': 1323751624
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

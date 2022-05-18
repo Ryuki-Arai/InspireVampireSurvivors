@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87239d2f7ac10f94bb873ea471367a52
+guid: cfde76eb80af5b3429e8a3497d6fdd04
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_0'
+      name: '[Monster]Skelton_pochi_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 60
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7642db5d4cc20a742ab3d19e51b97c4d
-      internalID: -1662573944
+      spriteID: fc47a3a7dc823824198b6472ca8b6d55
+      internalID: 1198542487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_1'
+      name: '[Monster]Skelton_pochi_1'
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
+        y: 60
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af19f1456de825b49955b2ef1cf7b56f
-      internalID: 1378226536
+      spriteID: eef44b1900dde0d419e85d9060aa5591
+      internalID: 576448709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_2'
+      name: '[Monster]Skelton_pochi_2'
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 60
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e46e8ffe1fbe3e4b8cc6f3ab4ad4fd3
-      internalID: 1140671038
+      spriteID: 5a05389656edac44abde9f85eb39a55f
+      internalID: 68672008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_3'
+      name: '[Monster]Skelton_pochi_3'
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
+        y: 60
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f10863efc71255489009678b5a5113a
-      internalID: 1904520553
+      spriteID: b48fb4068af4d0c4a81b93c2269bb399
+      internalID: 39675679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_4'
+      name: '[Monster]Skelton_pochi_4'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 60
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f0de3262284694894f7d2c4c4426bd
+      internalID: -109482376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_5'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4101b22c0af254d49a9979280ec9beab
+      internalID: 454991801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_6'
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 40
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a9e842f2c340049bb3963d8c2c6bb6
-      internalID: 1122255191
+      spriteID: f5a9ecbe76291984482853b8deb9020b
+      internalID: 1443769677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_5'
+      name: '[Monster]Skelton_pochi_7'
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 40
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720f9d0d7728cc141b50742d96f3c166
-      internalID: 1987785120
+      spriteID: 62077c84f2d42f64db304abb3d475156
+      internalID: -1577999901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_6'
+      name: '[Monster]Skelton_pochi_8'
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
+        y: 40
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a0a7f121ffc1e42a4f9ba0a40bf7f5
-      internalID: 63231067
+      spriteID: 9ad6433acbef2614bbfb53b1139e312e
+      internalID: -1928351513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_7'
+      name: '[Monster]Skelton_pochi_9'
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 40
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +331,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f0689376503f548b67067bf576e59e
-      internalID: 152008420
+      spriteID: b4975b29a8fe7624899cea9ba4fb26ba
+      internalID: -501814385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_8'
+      name: '[Monster]Skelton_pochi_10'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d645335617f18419d00f4daeb57783
+      internalID: 464962103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_11'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74dda0e00951c743b23ce60777e0398
+      internalID: 295108436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_12'
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c323755c17d389449073fd41a8328a7
-      internalID: -72164143
+      spriteID: 926435914fce01c4ea0a40168311e7d1
+      internalID: 1961796703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_9'
+      name: '[Monster]Skelton_pochi_13'
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1e209eeb9b8c746a77fac07cfa9fb0
-      internalID: -554551909
+      spriteID: 45bdda4924c578c4482a75d73035f40e
+      internalID: 479668801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_10'
+      name: '[Monster]Skelton_pochi_14'
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b66168a168edd8409222e0459ad9f18
-      internalID: -1374367246
+      spriteID: cd8fdb2224301c94da7cc65a25006bf0
+      internalID: -614386131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_11'
+      name: '[Monster]Skelton_pochi_15'
       rect:
         serializedVersion: 2
         x: 48
-        y: 32
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a867561d4caaa644923119c0c4d9586
-      internalID: 1077721949
+      spriteID: c9a77088e3549f54282cf6a5745d82c5
+      internalID: -758485425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_12'
+      name: '[Monster]Skelton_pochi_16'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
+        x: 64
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +478,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a245144eb95fe40b65c907c42531c8
-      internalID: 974153346
+      spriteID: 6605f75b0a90af14cb87a548a09d580f
+      internalID: -1249648632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_13'
+      name: '[Monster]Skelton_pochi_17'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
+        x: 80
+        y: 20
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,62 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9f681882a057841ba4260326bb05ba
-      internalID: -1763892281
+      spriteID: 23692053cb1354b45b99c9aa8e2f0bc1
+      internalID: 1995648999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_14'
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c60f6cd25eddacc478bd0125176c2dcb
-      internalID: 393385643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_15'
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73dbee716e966b246ae49c845d29aae6
-      internalID: 222958966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_16'
+      name: '[Monster]Skelton_pochi_18'
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70811110df11054f892f47496c507a3
-      internalID: 1513432216
+      spriteID: d2f212ba9bba93d40a7078b120e7371c
+      internalID: -124833326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_17'
+      name: '[Monster]Skelton_pochi_19'
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedc2144462dbda4c89b4820cbcd5525
-      internalID: -752734441
+      spriteID: 02b083ce3fb6d854da6e8d01cf89266a
+      internalID: -1701296722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_18'
+      name: '[Monster]Skelton_pochi_20'
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90b1e9729257f114abf3f5cf2728c407
-      internalID: 1455508460
+      spriteID: d6c7e36c0093f4140bef7ba528d69d49
+      internalID: -1052640381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_19'
+      name: '[Monster]Skelton_pochi_21'
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,8 +583,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b47fb8256300d0478fe8d5c6ec7dc10
-      internalID: 2131285761
+      spriteID: 5f7b1a7cca1b40643995cc4b59cd18a6
+      internalID: -1441579721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_22'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25955466a098fa74a80583fb4570fb79
+      internalID: -1960786826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Skelton_pochi_23'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be837c463c7b9af4f8ce20f55c8165b0
+      internalID: 1381982418
       vertices: []
       indices: 
       edges: []
@@ -558,26 +642,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[A]WaterFall2_pipo_14': 393385643
-      '[A]WaterFall2_pipo_3': 1904520553
-      '[A]WaterFall2_pipo_12': 974153346
-      '[A]WaterFall2_pipo_16': 1513432216
-      '[A]WaterFall2_pipo_7': 152008420
-      '[A]WaterFall2_pipo_17': -752734441
-      '[A]WaterFall2_pipo_19': 2131285761
-      '[A]WaterFall2_pipo_2': 1140671038
-      '[A]WaterFall2_pipo_0': -1662573944
-      '[A]WaterFall2_pipo_18': 1455508460
-      '[A]WaterFall2_pipo_9': -554551909
-      '[A]WaterFall2_pipo_15': 222958966
-      '[A]WaterFall2_pipo_5': 1987785120
-      '[A]WaterFall2_pipo_1': 1378226536
-      '[A]WaterFall2_pipo_11': 1077721949
-      '[A]WaterFall2_pipo_6': 63231067
-      '[A]WaterFall2_pipo_10': -1374367246
-      '[A]WaterFall2_pipo_4': 1122255191
-      '[A]WaterFall2_pipo_8': -72164143
-      '[A]WaterFall2_pipo_13': -1763892281
+      '[Monster]Skelton_pochi_8': -1928351513
+      '[Monster]Skelton_pochi_7': -1577999901
+      '[Monster]Skelton_pochi_4': -109482376
+      '[Monster]Skelton_pochi_6': 1443769677
+      '[Monster]Skelton_pochi_22': -1960786826
+      '[Monster]Skelton_pochi_13': 479668801
+      '[Monster]Skelton_pochi_15': -758485425
+      '[Monster]Skelton_pochi_10': 464962103
+      '[Monster]Skelton_pochi_17': 1995648999
+      '[Monster]Skelton_pochi_21': -1441579721
+      '[Monster]Skelton_pochi_20': -1052640381
+      '[Monster]Skelton_pochi_1': 576448709
+      '[Monster]Skelton_pochi_12': 1961796703
+      '[Monster]Skelton_pochi_2': 68672008
+      '[Monster]Skelton_pochi_18': -124833326
+      '[Monster]Skelton_pochi_19': -1701296722
+      '[Monster]Skelton_pochi_9': -501814385
+      '[Monster]Skelton_pochi_23': 1381982418
+      '[Monster]Skelton_pochi_14': -614386131
+      '[Monster]Skelton_pochi_11': 295108436
+      '[Monster]Skelton_pochi_5': 454991801
+      '[Monster]Skelton_pochi_3': 39675679
+      '[Monster]Skelton_pochi_16': -1249648632
+      '[Monster]Skelton_pochi_0': 1198542487
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

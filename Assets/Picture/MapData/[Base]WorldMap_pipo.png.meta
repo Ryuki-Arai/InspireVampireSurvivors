@@ -4058,10 +4058,10 @@ TextureImporter:
       '[Base]WorldMap_pipo_58': 909320617
       '[Base]WorldMap_pipo_146': -1962873016
       '[Base]WorldMap_pipo_32': -2143930208
-      '[Base]WorldMap_pipo_93': -1183853667
       '[Base]WorldMap_pipo_19': -1340136925
-      '[Base]WorldMap_pipo_94': -1098605819
       '[Base]WorldMap_pipo_10': 1420154098
+      '[Base]WorldMap_pipo_94': -1098605819
+      '[Base]WorldMap_pipo_93': -1183853667
       '[Base]WorldMap_pipo_0': -762820497
       '[Base]WorldMap_pipo_100': 559497782
       '[Base]WorldMap_pipo_181': 1372987222
@@ -4184,8 +4184,8 @@ TextureImporter:
       '[Base]WorldMap_pipo_131': -1904995620
       '[Base]WorldMap_pipo_132': 865077170
       '[Base]WorldMap_pipo_81': -656401880
-      '[Base]WorldMap_pipo_169': 1343329465
       '[Base]WorldMap_pipo_72': 1295948446
+      '[Base]WorldMap_pipo_169': 1343329465
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

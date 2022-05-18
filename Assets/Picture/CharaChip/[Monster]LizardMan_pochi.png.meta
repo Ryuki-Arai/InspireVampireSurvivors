@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87239d2f7ac10f94bb873ea471367a52
+guid: 9cce3ba68a96a0446baa21198e59a4f7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_0'
+      name: '[Monster]LizardMan_pochi_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 16
-        height: 16
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7642db5d4cc20a742ab3d19e51b97c4d
-      internalID: -1662573944
+      spriteID: ee8c8d8facadf2542984fd6ae0fb46c8
+      internalID: 832026024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_1'
+      name: '[Monster]LizardMan_pochi_1'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 20
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af19f1456de825b49955b2ef1cf7b56f
-      internalID: 1378226536
+      spriteID: a74906f53dc47784a9bc8a2412fba4cd
+      internalID: -702475862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_2'
+      name: '[Monster]LizardMan_pochi_2'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 40
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e46e8ffe1fbe3e4b8cc6f3ab4ad4fd3
-      internalID: 1140671038
+      spriteID: af4fa7bb72a29b84fb0665f46ad74afc
+      internalID: 699498608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_3'
+      name: '[Monster]LizardMan_pochi_3'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 60
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f10863efc71255489009678b5a5113a
-      internalID: 1904520553
+      spriteID: 98d9cf739cfc9d44f8c4503e068b236a
+      internalID: 1665497543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_4'
+      name: '[Monster]LizardMan_pochi_4'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
+        x: 80
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a9e842f2c340049bb3963d8c2c6bb6
-      internalID: 1122255191
+      spriteID: 98554d31fa4d45c4abda3e31c715ef2e
+      internalID: 1213657076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_5'
+      name: '[Monster]LizardMan_pochi_5'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 100
+        y: 54
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,62 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720f9d0d7728cc141b50742d96f3c166
-      internalID: 1987785120
+      spriteID: 048e0718d5ab51c49bae3b3ae84e188b
+      internalID: 1992593102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_6'
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50a0a7f121ffc1e42a4f9ba0a40bf7f5
-      internalID: 63231067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_7'
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f0689376503f548b67067bf576e59e
-      internalID: 152008420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_8'
+      name: '[Monster]LizardMan_pochi_6'
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 36
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c323755c17d389449073fd41a8328a7
-      internalID: -72164143
+      spriteID: 228393a21e076bc49a524f370216c5f1
+      internalID: 731481886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_9'
+      name: '[Monster]LizardMan_pochi_7'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 20
+        y: 36
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1e209eeb9b8c746a77fac07cfa9fb0
-      internalID: -554551909
+      spriteID: 30ebeec78adf9e34e8c1cd2e8428d9b9
+      internalID: 1224622497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_10'
+      name: '[Monster]LizardMan_pochi_8'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 40
+        y: 36
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b66168a168edd8409222e0459ad9f18
-      internalID: -1374367246
+      spriteID: a23b92fcc24d36f46b9e964eda68d3c4
+      internalID: 358874797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_11'
+      name: '[Monster]LizardMan_pochi_9'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 60
+        y: 36
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +331,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a867561d4caaa644923119c0c4d9586
-      internalID: 1077721949
+      spriteID: 73d53f3cd0b29a048b2fc5dc0b63e1b4
+      internalID: -1068191730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_12'
+      name: '[Monster]LizardMan_pochi_10'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e92c7b41aef134ba8def77402e58c7
+      internalID: 738845966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_11'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 36
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2592468b2bd0664db25cff7cc415bab
+      internalID: -1200843299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_12'
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 18
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a245144eb95fe40b65c907c42531c8
-      internalID: 974153346
+      spriteID: 2d6afdbc2475cae49a9801e013a5e892
+      internalID: 198326876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_13'
+      name: '[Monster]LizardMan_pochi_13'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 20
+        y: 18
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9f681882a057841ba4260326bb05ba
-      internalID: -1763892281
+      spriteID: 99344891b944d204ea2af6f026de2b0d
+      internalID: -374864726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_14'
+      name: '[Monster]LizardMan_pochi_14'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 40
+        y: 18
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c60f6cd25eddacc478bd0125176c2dcb
-      internalID: 393385643
+      spriteID: 7b137e7727f2711459235f7ab5b81a09
+      internalID: 1750616043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_15'
+      name: '[Monster]LizardMan_pochi_15'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 60
+        y: 18
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,20 +457,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73dbee716e966b246ae49c845d29aae6
-      internalID: 222958966
+      spriteID: 8eaf388f4bd28a84e8c3a5ffd1df9184
+      internalID: 994400711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_16'
+      name: '[Monster]LizardMan_pochi_16'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35af58aa066f56e49b9fce8ad68134f4
+      internalID: 359957959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_17'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 18
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702de71792d469a4e9b4f8c5395db404
+      internalID: -66165161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_18'
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70811110df11054f892f47496c507a3
-      internalID: 1513432216
+      spriteID: 645cbadae676ced4bb554f3e91711009
+      internalID: 115977350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_17'
+      name: '[Monster]LizardMan_pochi_19'
       rect:
         serializedVersion: 2
-        x: 16
+        x: 20
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedc2144462dbda4c89b4820cbcd5525
-      internalID: -752734441
+      spriteID: ce4ef3bbddbe43745a48ecfb0e063080
+      internalID: 2102644488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_18'
+      name: '[Monster]LizardMan_pochi_20'
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90b1e9729257f114abf3f5cf2728c407
-      internalID: 1455508460
+      spriteID: bfa916feb04cadf4cbd25e6b8d9dd6dc
+      internalID: -1898225952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_19'
+      name: '[Monster]LizardMan_pochi_21'
       rect:
         serializedVersion: 2
-        x: 48
+        x: 60
         y: 0
-        width: 16
-        height: 16
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,8 +583,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b47fb8256300d0478fe8d5c6ec7dc10
-      internalID: 2131285761
+      spriteID: d1788cf6c72548c4882a68b295c806de
+      internalID: 33610988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_22'
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1c56336e20f46439de081ec800f1de
+      internalID: -984925600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]LizardMan_pochi_23'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12a327e8ba189e408162c793d853faf
+      internalID: 904383674
       vertices: []
       indices: 
       edges: []
@@ -558,26 +642,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[A]WaterFall2_pipo_14': 393385643
-      '[A]WaterFall2_pipo_3': 1904520553
-      '[A]WaterFall2_pipo_12': 974153346
-      '[A]WaterFall2_pipo_16': 1513432216
-      '[A]WaterFall2_pipo_7': 152008420
-      '[A]WaterFall2_pipo_17': -752734441
-      '[A]WaterFall2_pipo_19': 2131285761
-      '[A]WaterFall2_pipo_2': 1140671038
-      '[A]WaterFall2_pipo_0': -1662573944
-      '[A]WaterFall2_pipo_18': 1455508460
-      '[A]WaterFall2_pipo_9': -554551909
-      '[A]WaterFall2_pipo_15': 222958966
-      '[A]WaterFall2_pipo_5': 1987785120
-      '[A]WaterFall2_pipo_1': 1378226536
-      '[A]WaterFall2_pipo_11': 1077721949
-      '[A]WaterFall2_pipo_6': 63231067
-      '[A]WaterFall2_pipo_10': -1374367246
-      '[A]WaterFall2_pipo_4': 1122255191
-      '[A]WaterFall2_pipo_8': -72164143
-      '[A]WaterFall2_pipo_13': -1763892281
+      '[Monster]LizardMan_pochi_20': -1898225952
+      '[Monster]LizardMan_pochi_2': 699498608
+      '[Monster]LizardMan_pochi_7': 1224622497
+      '[Monster]LizardMan_pochi_22': -984925600
+      '[Monster]LizardMan_pochi_4': 1213657076
+      '[Monster]LizardMan_pochi_9': -1068191730
+      '[Monster]LizardMan_pochi_0': 832026024
+      '[Monster]LizardMan_pochi_21': 33610988
+      '[Monster]LizardMan_pochi_11': -1200843299
+      '[Monster]LizardMan_pochi_6': 731481886
+      '[Monster]LizardMan_pochi_17': -66165161
+      '[Monster]LizardMan_pochi_14': 1750616043
+      '[Monster]LizardMan_pochi_19': 2102644488
+      '[Monster]LizardMan_pochi_13': -374864726
+      '[Monster]LizardMan_pochi_12': 198326876
+      '[Monster]LizardMan_pochi_15': 994400711
+      '[Monster]LizardMan_pochi_8': 358874797
+      '[Monster]LizardMan_pochi_23': 904383674
+      '[Monster]LizardMan_pochi_1': -702475862
+      '[Monster]LizardMan_pochi_5': 1992593102
+      '[Monster]LizardMan_pochi_18': 115977350
+      '[Monster]LizardMan_pochi_16': 359957959
+      '[Monster]LizardMan_pochi_10': 738845966
+      '[Monster]LizardMan_pochi_3': 1665497543
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

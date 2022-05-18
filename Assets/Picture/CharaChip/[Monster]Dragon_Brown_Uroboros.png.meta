@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87239d2f7ac10f94bb873ea471367a52
+guid: d2454c30af9701542ab318efee1d3f70
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_0'
+      name: '[Monster]Dragon_Brown_Uroboros_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 16
-        height: 16
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7642db5d4cc20a742ab3d19e51b97c4d
-      internalID: -1662573944
+      spriteID: 411251a3feefb59458ec199ce57a3b9f
+      internalID: -718248516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_1'
+      name: '[Monster]Dragon_Brown_Uroboros_1'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 30
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af19f1456de825b49955b2ef1cf7b56f
-      internalID: 1378226536
+      spriteID: 9ff1bb55a28f47c439e015120138318d
+      internalID: -633922688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_2'
+      name: '[Monster]Dragon_Brown_Uroboros_2'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 60
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e46e8ffe1fbe3e4b8cc6f3ab4ad4fd3
-      internalID: 1140671038
+      spriteID: 09abc72d9b3c07c42b2f05f871a6d0af
+      internalID: -1369573076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_3'
+      name: '[Monster]Dragon_Brown_Uroboros_3'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 90
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f10863efc71255489009678b5a5113a
-      internalID: 1904520553
+      spriteID: 50c37bbee3821c14bae23fb72a6b62ea
+      internalID: 1528861786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_4'
+      name: '[Monster]Dragon_Brown_Uroboros_4'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
+        x: 120
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a9e842f2c340049bb3963d8c2c6bb6
-      internalID: 1122255191
+      spriteID: 0b1f134a24a41644784aaac81cc8ae1b
+      internalID: 296953192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_5'
+      name: '[Monster]Dragon_Brown_Uroboros_5'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 150
+        y: 84
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,62 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720f9d0d7728cc141b50742d96f3c166
-      internalID: 1987785120
+      spriteID: 6c08d724e11f94d478334713b8c6ef45
+      internalID: -661242016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_6'
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50a0a7f121ffc1e42a4f9ba0a40bf7f5
-      internalID: 63231067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_7'
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f0689376503f548b67067bf576e59e
-      internalID: 152008420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_8'
+      name: '[Monster]Dragon_Brown_Uroboros_6'
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 56
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c323755c17d389449073fd41a8328a7
-      internalID: -72164143
+      spriteID: 96fe3b3232f664b4d9359ae4349038fe
+      internalID: -1114917564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_9'
+      name: '[Monster]Dragon_Brown_Uroboros_7'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 30
+        y: 56
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1e209eeb9b8c746a77fac07cfa9fb0
-      internalID: -554551909
+      spriteID: d697fc8abeb8ab14b8a41c2d187ddab5
+      internalID: 1407144252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_10'
+      name: '[Monster]Dragon_Brown_Uroboros_8'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 60
+        y: 56
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b66168a168edd8409222e0459ad9f18
-      internalID: -1374367246
+      spriteID: c1dbdc5ebedc2f744985ac83e1d799e7
+      internalID: -427312611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_11'
+      name: '[Monster]Dragon_Brown_Uroboros_9'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 90
+        y: 56
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +331,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a867561d4caaa644923119c0c4d9586
-      internalID: 1077721949
+      spriteID: d827809b1bdb96d488c68b14163ceb58
+      internalID: -573039215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_12'
+      name: '[Monster]Dragon_Brown_Uroboros_10'
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1975f26125c2d294d8adae47c6dc0570
+      internalID: 405118874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_11'
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 56
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a3f4019b6d8e4da86bad54452833d
+      internalID: 1895782696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_12'
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 28
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a245144eb95fe40b65c907c42531c8
-      internalID: 974153346
+      spriteID: 6c13186ed88fe6749b360deb4fbfafb6
+      internalID: 731430642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_13'
+      name: '[Monster]Dragon_Brown_Uroboros_13'
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 30
+        y: 28
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9f681882a057841ba4260326bb05ba
-      internalID: -1763892281
+      spriteID: d34c63ada3bb076499e9daca195427ce
+      internalID: -1517760169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_14'
+      name: '[Monster]Dragon_Brown_Uroboros_14'
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 60
+        y: 28
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c60f6cd25eddacc478bd0125176c2dcb
-      internalID: 393385643
+      spriteID: 7b054d2048764e446a5f7e929572219a
+      internalID: -1828772040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_15'
+      name: '[Monster]Dragon_Brown_Uroboros_15'
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 90
+        y: 28
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,20 +457,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73dbee716e966b246ae49c845d29aae6
-      internalID: 222958966
+      spriteID: 527bdd8eff2d2bf44b4c431efba6b8b9
+      internalID: -995043915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_16'
+      name: '[Monster]Dragon_Brown_Uroboros_16'
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 28
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b56ab5af62c4f4bb94fb067e11595a
+      internalID: 1055166113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_17'
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 28
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f43e9922119d34f9f077da5e8bed09
+      internalID: -2036419495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_18'
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70811110df11054f892f47496c507a3
-      internalID: 1513432216
+      spriteID: 72704e54e8215a445865471b5ff18379
+      internalID: -883946991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_17'
+      name: '[Monster]Dragon_Brown_Uroboros_19'
       rect:
         serializedVersion: 2
-        x: 16
+        x: 30
         y: 0
-        width: 16
-        height: 16
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fedc2144462dbda4c89b4820cbcd5525
-      internalID: -752734441
+      spriteID: 6f78f27ab9b6d544f91b8bd2c4918968
+      internalID: 423324906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_18'
+      name: '[Monster]Dragon_Brown_Uroboros_20'
       rect:
         serializedVersion: 2
-        x: 32
+        x: 60
         y: 0
-        width: 16
-        height: 16
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90b1e9729257f114abf3f5cf2728c407
-      internalID: 1455508460
+      spriteID: b8c1c4ac3af167940b3d6aa73b797077
+      internalID: 1181136815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[A]WaterFall2_pipo_19'
+      name: '[Monster]Dragon_Brown_Uroboros_21'
       rect:
         serializedVersion: 2
-        x: 48
+        x: 90
         y: 0
-        width: 16
-        height: 16
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,8 +583,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b47fb8256300d0478fe8d5c6ec7dc10
-      internalID: 2131285761
+      spriteID: 4761a8c9b18832147b16cb3156dbd3fa
+      internalID: 800412049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_22'
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79376c4794548044cb4d34f55349a502
+      internalID: -577573957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Monster]Dragon_Brown_Uroboros_23'
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4afc2b0d526dae4e852052f867c3fe7
+      internalID: 1309941393
       vertices: []
       indices: 
       edges: []
@@ -558,26 +642,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[A]WaterFall2_pipo_14': 393385643
-      '[A]WaterFall2_pipo_3': 1904520553
-      '[A]WaterFall2_pipo_12': 974153346
-      '[A]WaterFall2_pipo_16': 1513432216
-      '[A]WaterFall2_pipo_7': 152008420
-      '[A]WaterFall2_pipo_17': -752734441
-      '[A]WaterFall2_pipo_19': 2131285761
-      '[A]WaterFall2_pipo_2': 1140671038
-      '[A]WaterFall2_pipo_0': -1662573944
-      '[A]WaterFall2_pipo_18': 1455508460
-      '[A]WaterFall2_pipo_9': -554551909
-      '[A]WaterFall2_pipo_15': 222958966
-      '[A]WaterFall2_pipo_5': 1987785120
-      '[A]WaterFall2_pipo_1': 1378226536
-      '[A]WaterFall2_pipo_11': 1077721949
-      '[A]WaterFall2_pipo_6': 63231067
-      '[A]WaterFall2_pipo_10': -1374367246
-      '[A]WaterFall2_pipo_4': 1122255191
-      '[A]WaterFall2_pipo_8': -72164143
-      '[A]WaterFall2_pipo_13': -1763892281
+      '[Monster]Dragon_Brown_Uroboros_12': 731430642
+      '[Monster]Dragon_Brown_Uroboros_15': -995043915
+      '[Monster]Dragon_Brown_Uroboros_2': -1369573076
+      '[Monster]Dragon_Brown_Uroboros_1': -633922688
+      '[Monster]Dragon_Brown_Uroboros_4': 296953192
+      '[Monster]Dragon_Brown_Uroboros_11': 1895782696
+      '[Monster]Dragon_Brown_Uroboros_6': -1114917564
+      '[Monster]Dragon_Brown_Uroboros_3': 1528861786
+      '[Monster]Dragon_Brown_Uroboros_18': -883946991
+      '[Monster]Dragon_Brown_Uroboros_23': 1309941393
+      '[Monster]Dragon_Brown_Uroboros_7': 1407144252
+      '[Monster]Dragon_Brown_Uroboros_21': 800412049
+      '[Monster]Dragon_Brown_Uroboros_17': -2036419495
+      '[Monster]Dragon_Brown_Uroboros_5': -661242016
+      '[Monster]Dragon_Brown_Uroboros_22': -577573957
+      '[Monster]Dragon_Brown_Uroboros_20': 1181136815
+      '[Monster]Dragon_Brown_Uroboros_14': -1828772040
+      '[Monster]Dragon_Brown_Uroboros_9': -573039215
+      '[Monster]Dragon_Brown_Uroboros_19': 423324906
+      '[Monster]Dragon_Brown_Uroboros_0': -718248516
+      '[Monster]Dragon_Brown_Uroboros_16': 1055166113
+      '[Monster]Dragon_Brown_Uroboros_8': -427312611
+      '[Monster]Dragon_Brown_Uroboros_10': 405118874
+      '[Monster]Dragon_Brown_Uroboros_13': -1517760169
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
