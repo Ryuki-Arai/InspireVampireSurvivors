@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] float _speed = 0.1f;
     [SerializeField] float _shootTime = 0.3f;
-    [SerializeField] Bullet _prefab = null;
-    [SerializeField] Transform _root = null;
+    [SerializeField] int _hp = 100;
+    [SerializeField] Bullet _prefab = default;
+    [SerializeField] Transform _root = default;
+    [SerializeField] Slider _slider = default;
     Rigidbody2D _rb2d;
     Animator _anim = default;
 
@@ -27,8 +30,11 @@ public class Player : MonoBehaviour
     {
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
+        _slider = GameObject.Find(_slider.name).GetComponent<Slider>();
         _bulletPool.SetBaseObj(_prefab, _root);
         _bulletPool.SetCapacity(100);
+        _slider.maxValue = _hp;
+        _slider.value = _hp;
     }
 
     private void Update()
@@ -60,5 +66,11 @@ public class Player : MonoBehaviour
             _anim.SetFloat("VectorX", vector.x);
             _anim.SetFloat("VectorY", vector.y);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy") _hp--;
+        _slider.value = _hp;
     }
 }

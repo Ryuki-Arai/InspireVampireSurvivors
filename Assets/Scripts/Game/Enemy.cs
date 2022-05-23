@@ -5,13 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IObjectPool
 {
     [SerializeField] float _speed = 10;
-    SpriteRenderer _image;
+    
     Rigidbody2D _rb2d;
     Animator _anim = default;
     
     void Awake()
     {
-        _image = GetComponent<SpriteRenderer>();
+        
     }
     private void Start()
     {
@@ -24,8 +24,6 @@ public class Enemy : MonoBehaviour, IObjectPool
         if (!IsActive) return;
 
         Vector2 sub = GameManager.Player.transform.position - transform.position;
-        //sub.Normalize();
-        //transform.position += sub * _speed * Time.deltaTime;
         _rb2d.velocity += sub.normalized * _speed * Time.deltaTime;
     }
 
@@ -42,6 +40,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     public void Damage()
     {
         //TODO
+
         Destroy();
     }
 
@@ -50,17 +49,17 @@ public class Enemy : MonoBehaviour, IObjectPool
     public bool IsActive => _isActrive;
     public void DisactiveForInstantiate()
     {
-        _image.enabled = false;
+        gameObject.SetActive(false);
         _isActrive = false;
     }
     public void Create()
     {
-        _image.enabled = true;
+        gameObject.SetActive(true);
         _isActrive = true;
     }
     public void Destroy()
     {
-        _image.enabled = false;
+        gameObject.SetActive(false);
         _isActrive = false;
     }
 }

@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour
         _enemyPool.SetCapacity(1000);
         GameManager.Instance.SetList();
 
-        for (int i = 0; i < 900; ++i) Spawn();
+        //for (int i = 0; i < 900; ++i) Spawn();
     }
 
     private void Update()
@@ -43,8 +43,8 @@ public class Spawner : MonoBehaviour
         var go = GameObject.Instantiate(_prefab);
         var script = go.GetComponent<Enemy>();
         */
-        _popPos.x = GameManager.Player.transform.position.x + 100 * Mathf.Cos(_cRad);
-        _popPos.y = GameManager.Player.transform.position.y + 100 * Mathf.Sin(_cRad);
+        _popPos.x = GameManager.Player.transform.position.x + 100 * Mathf.Cos(UnityEngine.Random.Range(-2 * Mathf.PI, 2 * MathF.PI));
+        _popPos.y = GameManager.Player.transform.position.y + 100 * Mathf.Sin(UnityEngine.Random.Range(-2 * Mathf.PI, 2 * MathF.PI));
         script.transform.position = _popPos;
         _cRad += 0.1f;
     }

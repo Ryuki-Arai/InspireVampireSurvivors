@@ -71,18 +71,18 @@ public class Bullet : MonoBehaviour, IObjectPool
     public bool IsActive => _isActrive;
     public void DisactiveForInstantiate()
     {
-        _image.enabled = false;
+        gameObject.SetActive(false);
         _isActrive = false;
     }
     public void Create()
     {
         _timer = 0.0f;
-        _image.enabled = true;
+        gameObject.SetActive(true);
         _isActrive = true;
     }
     public void Destroy()
     {
-        _image.enabled = false;
+        gameObject.SetActive(false);
         _isActrive = false;
     }
 }
