@@ -15,9 +15,14 @@ public class GameManager
 
     List<Enemy> _enemies = new List<Enemy>();
     static public List<Enemy> EnemyList => _instance._enemies;
+
+    List<Exp> _exps = new List<Exp>();
+
+    static public List<Exp> ExpList => _instance._exps;
     public void SetList()
     {
         //ObjectPoolに依存している
         _enemies = GameObject.FindObjectsOfType<Enemy>(true).ToList();
+        _exps = GameObject.FindObjectsOfType<Exp>(true).ToList();
     }
 }

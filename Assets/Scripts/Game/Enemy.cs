@@ -24,7 +24,8 @@ public class Enemy : MonoBehaviour, IObjectPool
         if (!IsActive) return;
 
         Vector2 sub = GameManager.Player.transform.position - transform.position;
-        _rb2d.velocity += sub.normalized * _speed * Time.deltaTime;
+        Vector2 verocity = sub.normalized * Time.deltaTime;
+        _rb2d.velocity += verocity * _speed;
     }
 
     private void LateUpdate()
