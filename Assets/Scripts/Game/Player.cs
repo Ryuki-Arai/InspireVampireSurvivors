@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -13,9 +14,19 @@ public class Player : MonoBehaviour
     [SerializeField] int _hp = 100;
     [SerializeField] Bullet _prefab = default;
     [SerializeField] Transform _root = default;
-    [SerializeField] Slider _slider = default;
+    [SerializeField] Slider _EXPslider = default;
+    [SerializeField] Slider _HPslider = default;
+    [SerializeField] TextMeshProUGUI _levelText;
     Rigidbody2D _rb2d;
     Animator _anim = default;
+
+    int _exp = 0;
+    public int EXP { set => _exp += value; }
+    int _level = 1;
+    public int Level
+    {
+        get => _level;
+    }
 
     float _timer = 0.0f;
 
@@ -28,13 +39,16 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _rb2d = GetComponent<Rigidbody2D>();
+        _rb2d = this.gameObject.GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        _slider = GameObject.Find(_slider.name).GetComponent<Slider>();
+        _HPslider = GameObject.Find(_HPslider.name).GetComponent<Slider>();
         _bulletPool.SetBaseObj(_prefab, _root);
-        _bulletPool.SetCapacity(100);
-        _slider.maxValue = _hp;
-        _slider.value = _hp;
+        _bulletPool.SetCapacity(1000);
+        _HPslider.maxValue = _hp;
+        _HPslider.value = _hp;
+        _EXPslider.maxValue = 1000;
+        _EXPslider.value = 0;
+        _levelText.GetComponent<TextMeshProUGUI>();
     }
 
     private void Update()
@@ -56,6 +70,14 @@ public class Player : MonoBehaviour
             script.Shoot();
             _timer -= _shootTime;
         }
+        if (_exp > 1000)
+        {
+            _level++;
+            _exp = 0;
+            _EXPslider.maxValue = 1000;
+        }
+        _EXPslider.value = _exp;
+        _levelText.text = "Level" + _level;
     }
 
     private void LateUpdate()
@@ -71,6 +93,6 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy") _hp--;
-        _slider.value = _hp;
+        _HPslider.value = _hp;
     }
 }

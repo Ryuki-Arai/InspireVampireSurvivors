@@ -18,6 +18,16 @@ public class Exp : MonoBehaviour,IObjectPool
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Trriger Player");
+            collision.gameObject.GetComponent<Player>().EXP = 10;
+            Destroy();
+        }
+    }
+
     bool _isActrive = false;
     public bool IsActive => _isActrive;
     public void DisactiveForInstantiate()
@@ -35,5 +45,6 @@ public class Exp : MonoBehaviour,IObjectPool
         gameObject.SetActive(false);
         _isActrive = false;
     }
+
 
 }
