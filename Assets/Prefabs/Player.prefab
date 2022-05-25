@@ -131,7 +131,9 @@ MonoBehaviour:
   _hp: 100
   _prefab: {fileID: -2028989865827172271, guid: c855bf29bd9310345990fda4a3b8bc42, type: 3}
   _root: {fileID: 0}
-  _slider: {fileID: 1766667631945482021}
+  _EXPslider: {fileID: 0}
+  _HPslider: {fileID: 0}
+  _levelText: {fileID: 0}
 --- !u!212 &1251572672899970700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -216,7 +218,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

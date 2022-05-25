@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Exp : MonoBehaviour,IObjectPool
 {
-
+    [SerializeField] int _exp;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class Exp : MonoBehaviour,IObjectPool
         if(collision.gameObject.tag == "Player")
         {
             Debug.Log("Trriger Player");
-            collision.gameObject.GetComponent<Player>().EXP = 10;
+            collision.gameObject.GetComponent<Player>().EXP = _exp;
             Destroy();
         }
     }
