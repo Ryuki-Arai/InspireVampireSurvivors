@@ -5,10 +5,14 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IObjectPool
 {
     [SerializeField] float _speed = 10;
-    
+    [SerializeField] Exp _prefab = default;
+    [SerializeField] Transform _root = default;
+
     Rigidbody2D _rb2d;
     Animator _anim = default;
-    
+
+    ObjectPool<Exp> _expPool = new ObjectPool<Exp>();
+
     void Awake()
     {
         
@@ -17,6 +21,9 @@ public class Enemy : MonoBehaviour, IObjectPool
     {
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
+        _expPool.SetBaseObj(_prefab, GameObject.Find("ExpRoot").transform);
+        _expPool.SetCapacity(1000);
+
     }
 
     void Update()
@@ -41,7 +48,8 @@ public class Enemy : MonoBehaviour, IObjectPool
     public void Damage()
     {
         //TODO
-
+        var script = _expPool.Instantiate();
+        script.transform.position = this.transform.position;
         Destroy();
     }
 

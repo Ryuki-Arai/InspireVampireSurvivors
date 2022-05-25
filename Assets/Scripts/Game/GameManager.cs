@@ -17,7 +17,6 @@ public class GameManager
     static public List<Enemy> EnemyList => _instance._enemies;
 
     List<Exp> _exps = new List<Exp>();
-
     static public List<Exp> ExpList => _instance._exps;
     public void SetList()
     {
