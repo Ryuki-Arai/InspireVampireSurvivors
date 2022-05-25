@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,1233 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639fe3a382260d8458cde31636edad2e
+      internalID: -1131607620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_1'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dfa83a5abbe4b49982df5ad62923c7
+      internalID: -1823462510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_2'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911e41066617dc499888210e342f7f7
+      internalID: -61299143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_3'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823e296f8fb3e884996d632e69d85f4a
+      internalID: -1438896253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_4'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646c2b47e764904c9b31e8b005fdf7b
+      internalID: 1029770056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_5'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775f805bb2fc4264ea9dddc8b1e42df0
+      internalID: -822869715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_6'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfdee28272e39142824de70e7a028d6
+      internalID: 1582064839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_7'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 774
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24c9ee89bd2fc0408af544813103471
+      internalID: 1999375740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_8'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c28b4c2c5d3c459fd0f89b41a4261
+      internalID: 677704558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_9'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a0d599baa53ea4e8a2b4843422d4e5
+      internalID: -210390711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_10'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55bd1027b97f14e9da4d94b5f7fe38
+      internalID: -1853003718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_11'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73867624d7f3a747a67fd124e932baa
+      internalID: -2141896494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_12'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01532f8e33735744ea828288a60fd72f
+      internalID: 135457919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_13'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88978195509f9564199369947c79c9b6
+      internalID: -1166113025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_14'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc7c602b0a9c941bbdd5948f467808
+      internalID: 854447035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_15'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 645
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5a93d8850b4c04084e97d4c2870df6
+      internalID: 483001579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_16'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dabc30dc61c1874793a2fa3efa17f62
+      internalID: 944323094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_17'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7bf2c90c80ba549944d2f3513b6d16
+      internalID: 142775572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_18'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6c4a462f47bd54f82942f49a98a997
+      internalID: -667178026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_19'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68045195ca036154e891cffd63e51e3a
+      internalID: -646761262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_20'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65187712658e1944aa8a9cd7be8ace8f
+      internalID: 474178097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_21'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c5bf6200555649999e7512d43957f
+      internalID: -1848868014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_22'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f93c8c5c2db1547b044b1c053d8321
+      internalID: -947022309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_23'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 516
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698469301a048d24a8b12e4fcb55c7c4
+      internalID: -1724289063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accf5ebeb75128545b9a2c243f124ce0
+      internalID: 1150250595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_25'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e1957a9ce730e4c9aa56555e11f7fa
+      internalID: -1845291395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_26'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41cd6357c02ec345b8b8f64fe36ab41
+      internalID: 816580822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_27'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a926770e7ecc1ea4d90fbfa6d8edc6fd
+      internalID: 2144155185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_28'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd799bc105f43439d59829fc31cfdb
+      internalID: -1127342420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_29'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ebeb3e118bbc346befa457c9ecc38b
+      internalID: -1863890197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_30'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8d5684f870b0144a25c8c871175ae8
+      internalID: 2053294593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_31'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 387
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924631530b66fe24896176a1907ce8c0
+      internalID: 1620248876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_32'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77d56bfb96f4849876456d26ba5650
+      internalID: 1033424635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_33'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07156052dcaa5414da803de6957639ee
+      internalID: 197734333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_34'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9a942bf360ac44b0da91038be188a
+      internalID: -438515366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_35'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d47a47e664782a43988218f89daf11b
+      internalID: 1334378257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_36'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfabda883578ad944ab71310f5c4c9a2
+      internalID: -1711768143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_37'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319610d6be366346bf7b237519d889b
+      internalID: -1742770254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_38'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe3cf79c27db8445891f832b4c67149
+      internalID: -987136482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_39'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 258
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3160b3fc12fb2d243bead8b84d66a3ff
+      internalID: 587189341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_40'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334bdb9254e5da8428b00381ce801ab5
+      internalID: -745872540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_41'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f62e4e985e5d34691eaed03444900c
+      internalID: -418594773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_42'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5d2b21a3bb3814692d4b93ff93eb13
+      internalID: 76765182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_43'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e678437aacaf7b4cb6c110d627b2c03
+      internalID: 933083979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_44'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf1a41fca108304caeaa222bf87f9fe
+      internalID: 2145944984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_45'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb837b9f403b4740b45a284bd6b8532
+      internalID: 47679624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_46'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa69e0239afd774295b91b35ba251ab
+      internalID: -653898616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_47'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 129
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7515c4bfe86bbe344aac51ce60355d06
+      internalID: -402026041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_48'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b92bf1805a587499e1354e47ab2121
+      internalID: 2046865582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_49'
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1243c76804a0eb240beced373903b41b
+      internalID: -1639585162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_50'
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f23460c740574d8fca711f205e0eb
+      internalID: -1298150051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_51'
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1969923e2474c504996ac2888e51bc12
+      internalID: 988839274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_52'
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c694f9d14d724704c982be7d4239f228
+      internalID: 2104532256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_53'
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720fac86437d4a44d8e6906fc618d486
+      internalID: -1465302566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_54'
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bdae85914647e42ad535af0fc99dfc
+      internalID: 2118047654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]Holy02_panop_55'
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fdf0d0a5c58304a90ded1bc3bbbfa8
+      internalID: -1551850648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1313,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '[Magic]Holy02_panop_4': 1029770056
+      '[Magic]Holy02_panop_31': 1620248876
+      '[Magic]Holy02_panop_53': -1465302566
+      '[Magic]Holy02_panop_0': -1131607620
+      '[Magic]Holy02_panop_17': 142775572
+      '[Magic]Holy02_panop_26': 816580822
+      '[Magic]Holy02_panop_23': -1724289063
+      '[Magic]Holy02_panop_51': 988839274
+      '[Magic]Holy02_panop_1': -1823462510
+      '[Magic]Holy02_panop_10': -1853003718
+      '[Magic]Holy02_panop_54': 2118047654
+      '[Magic]Holy02_panop_14': 854447035
+      '[Magic]Holy02_panop_22': -947022309
+      '[Magic]Holy02_panop_41': -418594773
+      '[Magic]Holy02_panop_34': -438515366
+      '[Magic]Holy02_panop_21': -1848868014
+      '[Magic]Holy02_panop_33': 197734333
+      '[Magic]Holy02_panop_43': 933083979
+      '[Magic]Holy02_panop_15': 483001579
+      '[Magic]Holy02_panop_32': 1033424635
+      '[Magic]Holy02_panop_27': 2144155185
+      '[Magic]Holy02_panop_5': -822869715
+      '[Magic]Holy02_panop_44': 2145944984
+      '[Magic]Holy02_panop_3': -1438896253
+      '[Magic]Holy02_panop_45': 47679624
+      '[Magic]Holy02_panop_35': 1334378257
+      '[Magic]Holy02_panop_36': -1711768143
+      '[Magic]Holy02_panop_13': -1166113025
+      '[Magic]Holy02_panop_11': -2141896494
+      '[Magic]Holy02_panop_20': 474178097
+      '[Magic]Holy02_panop_50': -1298150051
+      '[Magic]Holy02_panop_48': 2046865582
+      '[Magic]Holy02_panop_28': -1127342420
+      '[Magic]Holy02_panop_16': 944323094
+      '[Magic]Holy02_panop_52': 2104532256
+      '[Magic]Holy02_panop_29': -1863890197
+      '[Magic]Holy02_panop_38': -987136482
+      '[Magic]Holy02_panop_37': -1742770254
+      '[Magic]Holy02_panop_46': -653898616
+      '[Magic]Holy02_panop_47': -402026041
+      '[Magic]Holy02_panop_2': -61299143
+      '[Magic]Holy02_panop_6': 1582064839
+      '[Magic]Holy02_panop_24': 1150250595
+      '[Magic]Holy02_panop_7': 1999375740
+      '[Magic]Holy02_panop_9': -210390711
+      '[Magic]Holy02_panop_25': -1845291395
+      '[Magic]Holy02_panop_12': 135457919
+      '[Magic]Holy02_panop_18': -667178026
+      '[Magic]Holy02_panop_39': 587189341
+      '[Magic]Holy02_panop_42': 76765182
+      '[Magic]Holy02_panop_49': -1639585162
+      '[Magic]Holy02_panop_30': 2053294593
+      '[Magic]Holy02_panop_19': -646761262
+      '[Magic]Holy02_panop_55': -1551850648
+      '[Magic]Holy02_panop_40': -745872540
+      '[Magic]Holy02_panop_8': 677704558
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

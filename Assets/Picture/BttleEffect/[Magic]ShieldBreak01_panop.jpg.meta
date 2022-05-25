@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,897 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa2abd55011b54c932a53bdeaee3bd
+      internalID: 2037248941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_1'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f7211156a7f7443830d0446ec4f4e6
+      internalID: -905142393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_2'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb05453999118ca439539ba71e5f7c84
+      internalID: 1872130881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_3'
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b5617656552534eb2a932611e18798
+      internalID: -1800140363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_4'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f83636331102014c9370c4855d83610
+      internalID: 1241696663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_5'
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f449b0cdd027d443a2d638e5ffde2bf
+      internalID: -131811871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_6'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e572f92b35d724eb11bf47df3cac19
+      internalID: 1531902478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_7'
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 484
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1195eeaba516c4eaeecad62bba7233
+      internalID: 1445618220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_8'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd349f0eb0c56a24f8d8020975696fe6
+      internalID: -183647949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_9'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c070074441cc24fa70b54808c814f5
+      internalID: -1195411631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_10'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae00430d1fe29434eb38125c5debe459
+      internalID: 215981920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_11'
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcf844e6bc88714292adb90d5a1d440
+      internalID: -2144837179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_12'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de41db6ac28333444b8686f4f40260b8
+      internalID: -1396158050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_13'
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba344c3d75ccca4eae3221dba3723fc
+      internalID: -827362684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_14'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbf1af1551398d4bbac3362e4aa3968
+      internalID: -738648009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_15'
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 363
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad3246c7366984da6e4d99b5521d30
+      internalID: -807361973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_16'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869aae9bb0ffbb649968cedfe52f5120
+      internalID: 671672120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_17'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae88468bac1d5545b93b25f68db6e79
+      internalID: -618655488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_18'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda37c42d3a67154eba0531d0c203738
+      internalID: 1291266370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_19'
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b8b06e359a4e4187c22f2121805bb
+      internalID: -1286403384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_20'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f8363d62adaf4fbf78a42626e32c4
+      internalID: 1446023323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_21'
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3427ae9a0f7114a8807b363bebe6d4
+      internalID: -506943481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_22'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b30f63f00fd4704b90309e2bcc686ab
+      internalID: -1452838958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_23'
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 242
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be77c98ee7e2738448a34afacd62dd77
+      internalID: -1101392039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78cd27f90eb8bc4abe97f43290ee40e
+      internalID: -1098529798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_25'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09e6cd91e7b3654698bad054d1cef6c
+      internalID: -433988339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_26'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7251e8a9176613341989d020a9c80635
+      internalID: -1261041683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_27'
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270d1fec9bdefe6408a37e8c1f4810ba
+      internalID: 2044010138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_28'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad2f2ea6e9bbf040906ae735c316cf9
+      internalID: 1256767455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_29'
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9b2ea23fe88a741a424c4caf726966
+      internalID: 1643630348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_30'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e74e070d7531448e02bef7073c0d8
+      internalID: -1924984273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_31'
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 121
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a5bec0ffcfce42bf0d3e84381d83c
+      internalID: 631906715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_32'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edad4319eeedb0b4fbfbff5de0011351
+      internalID: -1762095035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_33'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24db89d0748508c43a1c8818f08e2849
+      internalID: 410341789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_34'
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494aee01fef3a57478de8d376cf36c48
+      internalID: -1363863410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_35'
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b8ccf78a36e14b93d701754bd070f
+      internalID: 920519919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_36'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331347bdf6629844a8112331ae94f06c
+      internalID: 1684161152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_37'
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925cab921bd7c04bb1b8013cca18094
+      internalID: 1130213175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_38'
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09541539e72b1ca49bff5b74c5100a89
+      internalID: 474655231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Magic]ShieldBreak01_panop_39'
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 135
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7282b8a5d5d46a4aae32f66e27da66c
+      internalID: 344162189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +977,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '[Magic]ShieldBreak01_panop_13': -827362684
+      '[Magic]ShieldBreak01_panop_9': -1195411631
+      '[Magic]ShieldBreak01_panop_30': -1924984273
+      '[Magic]ShieldBreak01_panop_20': 1446023323
+      '[Magic]ShieldBreak01_panop_2': 1872130881
+      '[Magic]ShieldBreak01_panop_16': 671672120
+      '[Magic]ShieldBreak01_panop_0': 2037248941
+      '[Magic]ShieldBreak01_panop_29': 1643630348
+      '[Magic]ShieldBreak01_panop_3': -1800140363
+      '[Magic]ShieldBreak01_panop_7': 1445618220
+      '[Magic]ShieldBreak01_panop_37': 1130213175
+      '[Magic]ShieldBreak01_panop_22': -1452838958
+      '[Magic]ShieldBreak01_panop_27': 2044010138
+      '[Magic]ShieldBreak01_panop_14': -738648009
+      '[Magic]ShieldBreak01_panop_23': -1101392039
+      '[Magic]ShieldBreak01_panop_39': 344162189
+      '[Magic]ShieldBreak01_panop_18': 1291266370
+      '[Magic]ShieldBreak01_panop_34': -1363863410
+      '[Magic]ShieldBreak01_panop_12': -1396158050
+      '[Magic]ShieldBreak01_panop_36': 1684161152
+      '[Magic]ShieldBreak01_panop_38': 474655231
+      '[Magic]ShieldBreak01_panop_8': -183647949
+      '[Magic]ShieldBreak01_panop_4': 1241696663
+      '[Magic]ShieldBreak01_panop_19': -1286403384
+      '[Magic]ShieldBreak01_panop_1': -905142393
+      '[Magic]ShieldBreak01_panop_28': 1256767455
+      '[Magic]ShieldBreak01_panop_32': -1762095035
+      '[Magic]ShieldBreak01_panop_10': 215981920
+      '[Magic]ShieldBreak01_panop_33': 410341789
+      '[Magic]ShieldBreak01_panop_5': -131811871
+      '[Magic]ShieldBreak01_panop_15': -807361973
+      '[Magic]ShieldBreak01_panop_31': 631906715
+      '[Magic]ShieldBreak01_panop_21': -506943481
+      '[Magic]ShieldBreak01_panop_6': 1531902478
+      '[Magic]ShieldBreak01_panop_11': -2144837179
+      '[Magic]ShieldBreak01_panop_26': -1261041683
+      '[Magic]ShieldBreak01_panop_17': -618655488
+      '[Magic]ShieldBreak01_panop_24': -1098529798
+      '[Magic]ShieldBreak01_panop_25': -433988339
+      '[Magic]ShieldBreak01_panop_35': 920519919
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
