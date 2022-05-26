@@ -54,7 +54,7 @@ public class Bullet : MonoBehaviour, IObjectPool
             if (vec.magnitude < 1.0f)
             {
                 e.Damage();
-                Destroy();
+                _speed = 0;
                 break;
             }
         }
@@ -64,6 +64,20 @@ public class Bullet : MonoBehaviour, IObjectPool
         {
             Destroy();
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Enemy")
+        {
+            var _anm = GetComponent<Animator>();
+            _anm.SetTrigger("Hit");
+        }        
+    }
+
+    void Delete()
+    {
+        Destroy();
     }
 
     //ObjectPool
