@@ -43,22 +43,6 @@ public class Bullet : MonoBehaviour, IObjectPool
     {
         transform.position += _shootVec * _speed * Time.deltaTime;
 
-        var list = GameManager.EnemyList;
-        _target = null;
-        Vector3 vec;
-        foreach (var e in list)
-        {
-            if (!e.IsActive) continue;
-
-            vec = e.transform.position - this.transform.position;
-            if (vec.magnitude < 1.0f)
-            {
-                e.Damage();
-                _speed = 0;
-                break;
-            }
-        }
-
         _timer += Time.deltaTime;
         if(_timer > 3.0f)
         {
@@ -70,6 +54,8 @@ public class Bullet : MonoBehaviour, IObjectPool
     {
         if(collision.gameObject.tag == "Enemy")
         {
+            collision.gameObject.GetComponent<Enemy>().Damage();
+            _speed = 0;
             var _anm = GetComponent<Animator>();
             _anm.SetTrigger("Hit");
         }        

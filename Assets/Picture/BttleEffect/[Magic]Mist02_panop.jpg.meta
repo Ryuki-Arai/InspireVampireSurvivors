@@ -50,8 +50,8 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaUsage: 2
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -642,7 +642,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[Magic]Mist02_panop_16': -641476705
+      '[Magic]Mist02_panop_13': -1526867188
       '[Magic]Mist02_panop_2': 860643033
       '[Magic]Mist02_panop_19': -955616248
       '[Magic]Mist02_panop_15': 1186037942
@@ -664,8 +664,8 @@ TextureImporter:
       '[Magic]Mist02_panop_8': -869549934
       '[Magic]Mist02_panop_14': 2008632418
       '[Magic]Mist02_panop_4': 1835510341
+      '[Magic]Mist02_panop_16': -641476705
       '[Magic]Mist02_panop_1': -893512980
-      '[Magic]Mist02_panop_13': -1526867188
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

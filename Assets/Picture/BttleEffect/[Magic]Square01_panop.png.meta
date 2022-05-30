@@ -50,8 +50,8 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaUsage: 2
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -978,10 +978,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      '[Magic]Square01_panop_36': 2006951955
-      '[Magic]Square01_panop_25': 497525992
-      '[Magic]Square01_panop_38': -1239636661
-      '[Magic]Square01_panop_39': 1658240275
       '[Magic]Square01_panop_24': 1091338452
       '[Magic]Square01_panop_11': -471204412
       '[Magic]Square01_panop_16': 420839044
@@ -1007,16 +1003,20 @@ TextureImporter:
       '[Magic]Square01_panop_3': 469317786
       '[Magic]Square01_panop_0': 1817111252
       '[Magic]Square01_panop_4': -136938930
+      '[Magic]Square01_panop_38': -1239636661
       '[Magic]Square01_panop_6': 1318656106
-      '[Magic]Square01_panop_8': -1242724582
       '[Magic]Square01_panop_26': 1590023845
+      '[Magic]Square01_panop_8': -1242724582
       '[Magic]Square01_panop_30': 821504132
+      '[Magic]Square01_panop_36': 2006951955
       '[Magic]Square01_panop_23': 1437130310
       '[Magic]Square01_panop_7': -1697679778
       '[Magic]Square01_panop_31': -864536347
       '[Magic]Square01_panop_33': -2138445053
-      '[Magic]Square01_panop_5': 1208901474
+      '[Magic]Square01_panop_25': 497525992
+      '[Magic]Square01_panop_39': 1658240275
       '[Magic]Square01_panop_12': 1687002823
+      '[Magic]Square01_panop_5': 1208901474
       '[Magic]Square01_panop_17': -707776510
   spritePackingTag: 
   pSDRemoveMatte: 0
