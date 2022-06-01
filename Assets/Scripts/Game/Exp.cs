@@ -22,7 +22,6 @@ public class Exp : MonoBehaviour,IObjectPool
     {
         if(collision.gameObject.tag == "Player")
         {
-            Debug.Log("Trriger Player");
             collision.gameObject.GetComponent<Player>().EXP = _exp;
             Destroy();
         }

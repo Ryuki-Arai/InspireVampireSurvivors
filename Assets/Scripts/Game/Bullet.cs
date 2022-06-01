@@ -6,15 +6,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour, IObjectPool
 {
     [SerializeField] float _speed = 255;
-    SpriteRenderer _image;
+    Rigidbody2D _rb2d;
     Enemy _target;
-    Vector3 _shootVec;
+    Vector2 _shootVec;
 
     float _timer = 0.0f;
 
-    void Awake()
+    private void Start()
     {
-        _image = GetComponent<SpriteRenderer>();
+        _rb2d = GetComponent<Rigidbody2D>();
     }
 
     public void Shoot()
@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour, IObjectPool
         var list = GameManager.EnemyList;
         _target = null;
         float len = -1;
-        Vector3 vec;
+        Vector2 vec;
         foreach(var e in list)
         {
             if (!e.IsActive) continue;
@@ -36,12 +36,12 @@ public class Bullet : MonoBehaviour, IObjectPool
 
         if (_target == null) return;
         _shootVec = _target.transform.position - GameManager.Player.transform.position;
-        _shootVec.Normalize();
     }
 
     void Update()
     {
-        transform.position += _shootVec * _speed * Time.deltaTime;
+        Vector2 velocity = _shootVec.normalized * _speed;
+        _rb2d.velocity = velocity;
 
         _timer += Time.deltaTime;
         if(_timer > 3.0f)
@@ -55,9 +55,8 @@ public class Bullet : MonoBehaviour, IObjectPool
         if(collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Enemy>().Damage();
-            _speed = 0;
-            var _anm = GetComponent<Animator>();
-            _anm.SetTrigger("Hit");
+            _shootVec = Vector2.zero;
+            GetComponent<Animator>().SetTrigger("Hit");
         }        
     }
 
