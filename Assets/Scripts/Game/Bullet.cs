@@ -46,7 +46,7 @@ public class Bullet : MonoBehaviour, IObjectPool
         _timer += Time.deltaTime;
         if(_timer > 3.0f)
         {
-            Destroy();
+            Delete();
         }
     }
 
@@ -57,7 +57,13 @@ public class Bullet : MonoBehaviour, IObjectPool
             collision.gameObject.GetComponent<Enemy>().Damage();
             _shootVec = Vector2.zero;
             GetComponent<Animator>().SetTrigger("Hit");
-        }        
+        }
+        if(collision.gameObject.tag == "Boss")
+        {
+            collision.gameObject.GetComponent<Boss>().Damage();
+            _shootVec = Vector2.zero;
+            GetComponent<Animator>().SetTrigger("Hit");
+        }
     }
 
     void Delete()

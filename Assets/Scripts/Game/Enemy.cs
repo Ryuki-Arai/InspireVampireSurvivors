@@ -49,6 +49,11 @@ public class Enemy : MonoBehaviour, IObjectPool
         //TODO
         var script = _expPool.Instantiate();
         script.transform.position = this.transform.position;
+        Delete();
+    }
+
+    void Delete()
+    {
         Destroy();
     }
 
