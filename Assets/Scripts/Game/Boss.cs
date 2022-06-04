@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour,IObjectPool
 {
-    [SerializeField] int _hp = 10;
+    [SerializeField] int HP;
     [SerializeField] float _speed = 10;
     [SerializeField] Exp _prefab = default;
-    [SerializeField] Transform _root = default;
+    Transform _root = default;
 
+    int _hp;
     Rigidbody2D _rb2d;
     Animator _anim = default;
 
@@ -16,6 +17,7 @@ public class Boss : MonoBehaviour,IObjectPool
     // Start is called before the first frame update
     void Start()
     {
+        _hp = HP;
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _expPool.SetBaseObj(_prefab, GameObject.Find("ExpRoot").transform);

@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IObjectPool
 {
+    [SerializeField] int HP;
     [SerializeField] float _speed = 10;
     [SerializeField] Exp _prefab = default;
-    [SerializeField] Transform _root = default;
+    Transform _root = default;
 
+    int _hp;
     Rigidbody2D _rb2d;
     Animator _anim = default;
 
@@ -19,6 +21,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     }
     private void Start()
     {
+        _hp = HP;
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _expPool.SetBaseObj(_prefab, GameObject.Find("ExpRoot").transform);
@@ -52,14 +55,17 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        //TODO
-        var script = _expPool.Instantiate();
-        script.transform.position = this.transform.position;
-        Delete();
+        if(_hp < 0)
+        {
+            Delete();
+        }
+        _hp--;
     }
 
     void Delete()
     {
+        var script = _expPool.Instantiate();
+        script.transform.position = this.transform.position;
         Destroy();
     }
 
