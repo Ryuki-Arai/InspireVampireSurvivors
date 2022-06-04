@@ -41,6 +41,11 @@ public class Boss : MonoBehaviour,IObjectPool
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet") _anim.SetTrigger("Damage");
+    }
+
     public void Damage()
     {
         _hp--;
