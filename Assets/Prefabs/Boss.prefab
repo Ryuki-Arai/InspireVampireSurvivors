@@ -120,10 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b18b7c0770843f49bc32c2945882629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hp: 1000
+  HP: 100
   _speed: 100
   _prefab: {fileID: 7498832156525642717, guid: 8fcaa3cf80f719f4e8e37a4091b65e0c, type: 3}
-  _root: {fileID: 0}
 --- !u!58 &8657783916118478868
 CircleCollider2D:
   m_ObjectHideFlags: 0
