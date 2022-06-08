@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     [SerializeField] float _speed = 10;
     [SerializeField] Exp _prefab = default;
     Transform _root = default;
+    SpriteRenderer _sr;
 
     int _hp;
     Rigidbody2D _rb2d;
@@ -21,9 +22,9 @@ public class Enemy : MonoBehaviour, IObjectPool
     }
     private void Start()
     {
-        _hp = HP;
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
+        _sr = GetComponent<SpriteRenderer>();
         _expPool.SetBaseObj(_prefab, GameObject.Find("ExpRoot").transform);
         _expPool.SetCapacity(1000);
 
@@ -49,7 +50,16 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Bullet") _anim.SetTrigger("Damage");
+        if (collision.gameObject.tag == "Bullet")
+        {
+            _sr.color = Color.red;
+            //_anim.SetTrigger("Damage");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        _sr.color = Color.white;
     }
 
 
@@ -79,12 +89,14 @@ public class Enemy : MonoBehaviour, IObjectPool
     }
     public void Create()
     {
+        _hp = HP;
         gameObject.SetActive(true);
         _isActrive = true;
     }
     public void Destroy()
     {
         gameObject.SetActive(false);
+        _sr.color = Color.white;
         _isActrive = false;
     }
 }

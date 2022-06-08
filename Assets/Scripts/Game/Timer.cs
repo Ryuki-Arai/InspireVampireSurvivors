@@ -24,16 +24,16 @@ public class Timer : MonoBehaviour
     void Update()
     {
         _t_second += Time.deltaTime;
-        if(_t_second > 60)
+        if (_t_second > 60)
         {
             _t_minute++;
             _t_second = 0;
         }
-        if(_t_minute > 60)
+        if (_t_minute > 60)
         {
             _t_hour++;
             _t_minute = 0;
         }
-        _tmpro.text = ((int)_t_hour).ToString("D2") + ":" + ((int)_t_minute).ToString("D2") + ":" + ((int)_t_second).ToString("D2");
+        _tmpro.text = $"{((int)_t_hour).ToString("D2")} : {((int) _t_minute).ToString("D2")} : { ((int)_t_second).ToString("D2")}";
     }
 }

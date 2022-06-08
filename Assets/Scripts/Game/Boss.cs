@@ -17,7 +17,6 @@ public class Boss : MonoBehaviour,IObjectPool
     // Start is called before the first frame update
     void Start()
     {
-        _hp = HP;
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _expPool.SetBaseObj(_prefab, GameObject.Find("ExpRoot").transform);
@@ -74,6 +73,7 @@ public class Boss : MonoBehaviour,IObjectPool
     }
     public void Create()
     {
+        _hp = HP;
         gameObject.SetActive(true);
         _isActrive = true;
     }

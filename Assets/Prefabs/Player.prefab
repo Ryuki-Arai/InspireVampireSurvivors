@@ -127,13 +127,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 20
-  _shootTime: 0.3
-  _hp: 100
+  _shootTime: 0.01
   _prefab: {fileID: -2028989865827172271, guid: c855bf29bd9310345990fda4a3b8bc42, type: 3}
   _root: {fileID: 0}
   _EXPslider: {fileID: 0}
   _HPslider: {fileID: 0}
   _levelText: {fileID: 0}
+  _init_val:
+    hp: 100
+    exp: 0
+    col: 0.15
 --- !u!212 &1251572672899970700
 SpriteRenderer:
   m_ObjectHideFlags: 0
