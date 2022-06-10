@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] Slider _HPslider = default;
     [SerializeField] TextMeshProUGUI _levelText;
     [SerializeField] Status _init_val;
+    [SerializeField] GameObject LevelUpPanel;
     Status _update_val;
     Rigidbody2D _rb2d;
     Animator _anim = default;
@@ -78,6 +79,7 @@ public class Player : MonoBehaviour
             _level++;
             _update_val.exp = 0;
             _EXPslider.maxValue = 1000;
+            LevelUpPanel.SetActive(true);
         }
         _EXPslider.value = _update_val.exp;
         _levelText.text = "Level" + _level;
