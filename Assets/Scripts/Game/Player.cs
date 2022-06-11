@@ -23,10 +23,9 @@ public class Player : MonoBehaviour
     Animator _anim = default;
 
     public int EXP { set => _update_val.exp += value; }
-    int _level = 1;
     public int Level
     {
-        get => _level;
+        get => _update_val.level;
     }
 
     float _timer = 0.0f;
@@ -45,9 +44,7 @@ public class Player : MonoBehaviour
         _HPslider = GameObject.Find(_HPslider.name).GetComponent<Slider>();
         _bulletPool.SetBaseObj(_prefab, _root);
         _bulletPool.SetCapacity(1000);
-        _update_val.hp = _init_val.hp;
-        _update_val.exp = _init_val.exp;
-        _update_val.col = _init_val.col;
+        _update_val = _init_val;
         _HPslider.maxValue = _init_val.hp;
         _HPslider.value = _init_val.hp;
         _EXPslider.maxValue = 1000;
@@ -76,13 +73,13 @@ public class Player : MonoBehaviour
         }
         if (_update_val.exp >= 1000)
         {
-            _level++;
+            _update_val.level++;
             _update_val.exp = 0;
             _EXPslider.maxValue = 1000;
             LevelUpPanel.SetActive(true);
         }
         _EXPslider.value = _update_val.exp;
-        _levelText.text = "Level" + _level;
+        _levelText.text = "Level" + _update_val.level;
     }
 
     private void LateUpdate()
@@ -109,6 +106,7 @@ public class Player : MonoBehaviour
     public struct Status
     {
         public int hp;
+        public int level;
         public int exp;
         public float col;
     }
