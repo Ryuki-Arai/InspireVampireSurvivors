@@ -50,7 +50,7 @@ public class Boss : MonoBehaviour,IObjectPool
     public void Damage()
     {
         _hp--;
-        if(_hp < 0) Delete();
+        if(_hp <= 0) Delete();
     }
 
     void Delete()

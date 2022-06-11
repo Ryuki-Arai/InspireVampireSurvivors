@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        if(_hp < 0)
+        if(_hp <= 0)
         {
             Delete();
         }

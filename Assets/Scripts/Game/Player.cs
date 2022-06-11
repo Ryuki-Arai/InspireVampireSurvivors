@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
             script.Shoot();
             _timer -= _shootTime;
         }
-        if (_update_val.exp > 1000)
+        if (_update_val.exp >= 1000)
         {
             _level++;
             _update_val.exp = 0;
