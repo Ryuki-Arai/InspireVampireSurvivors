@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] TextMeshProUGUI _levelText;
     [SerializeField] Status _init_val;
     [SerializeField] GameObject LevelUpPanel;
+    [SerializeField]TextAsset _textasset;
     Status _update_val;
     Rigidbody2D _rb2d;
     Animator _anim = default;
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         GameManager.Instance.SetPlayer(this);
+        LevelTable.LoadFile(_textasset.name);
     }
 
     private void Start()
