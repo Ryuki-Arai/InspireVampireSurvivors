@@ -7,33 +7,43 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI _tmpro;
 
-    float _t_second;
-    float _t_minute;
-    float _t_hour;
+    static _Time _time;
+
+    public static _Time GetTime
+    {
+        get => _time;
+    }
+
+    public struct _Time
+    {
+        public float second;
+        public int minute;
+        public int hour;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        _t_second = 0;
-        _t_minute = 0;
-        _t_hour = 0;
+        _time.second = 0;
+        _time.minute = 0;
+        _time.hour = 0;
         _tmpro.GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _t_second += Time.deltaTime;
-        if (_t_second > 60)
+        _time.second += Time.deltaTime;
+        if (_time.second > 60)
         {
-            _t_minute++;
-            _t_second = 0;
+            _time.minute++;
+            _time.second = 0;
         }
-        if (_t_minute > 60)
+        if (_time.minute > 60)
         {
-            _t_hour++;
-            _t_minute = 0;
+            _time.hour++;
+            _time.minute = 0;
         }
-        _tmpro.text = $"{((int)_t_hour).ToString("D2")}:{((int) _t_minute).ToString("D2")}:{ ((int)_t_second).ToString("D2")}";
+        _tmpro.text = $"{((int)_time.hour).ToString("D2")}:{((int)_time.minute).ToString("D2")}:{ ((int)_time.second).ToString("D2")}";
     }
 }

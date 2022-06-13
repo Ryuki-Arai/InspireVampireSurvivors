@@ -65,11 +65,11 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        if(_hp <= 0)
+        _hp -= GameManager.Player._update_val.atk;
+        if (_hp <= 0)
         {
             Delete();
         }
-        _hp--;
     }
 
     void Delete()

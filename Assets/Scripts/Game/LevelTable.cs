@@ -3,27 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
-using System.Text;
 
 /// <summary>
-/// レベルアップテーブルをCSVから読み込んで管理するクラス
+/// レベルと経験値をデータファイルから読み込んで管理するクラス
 /// </summary>
 public class LevelTable
 {
     static Dictionary<int,int> level_table = new Dictionary<int,int>();
 
     /// <summary>
-    /// レベルを取得して次のレベルアップに必要な経験値を返す
+    /// 現在のレベルを取得して次のレベルアップに必要な経験値を返す
     /// </summary>
     /// <param name="_iskey">現在のレベル</param>
-    /// <returns></returns>
+    /// <returns>次のレベルアップに必要な経験値（MaxValue）</returns>
     public static int NextLevelEXP(int _iskey)
     {
-        return level_table[_iskey];
+        int next_exp;
+        try
+        {
+            next_exp = level_table[_iskey];
+        }
+        catch(KeyNotFoundException e)
+        {
+            next_exp = level_table[level_table.Count];
+        }
+        return next_exp;
     }
 
     /// <summary>
-    /// Resources下のCSVファイルを読み込みValueとKey共にint型のディクショナリに格納
+    /// Resources下のファイルを読み込みValueとKey共にint型のディクショナリに格納
     /// </summary>
     /// <param name="_filepath">データが格納されたファイル名</param>
     public static void LoadFile(string _filepath)
