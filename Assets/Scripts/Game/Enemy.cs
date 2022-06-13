@@ -55,6 +55,10 @@ public class Enemy : MonoBehaviour, IObjectPool
             _sr.color = Color.red;
             //_anim.SetTrigger("Damage");
         }
+        if(collision.gameObject.tag == "Player")
+        {
+            _hp--;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -65,7 +69,7 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        _hp -= GameManager.Player._update_val.atk;
+        _hp -= GameManager.Player.UpdateVal.atk;
         if (_hp <= 0)
         {
             Delete();

@@ -49,7 +49,7 @@ public class Boss : MonoBehaviour,IObjectPool
 
     public void Damage()
     {
-        _hp -= GameManager.Player._update_val.atk;
+        _hp -= GameManager.Player.UpdateVal.atk;
         if (_hp <= 0) Delete();
     }
 
