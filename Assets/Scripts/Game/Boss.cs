@@ -58,7 +58,8 @@ public class Boss : MonoBehaviour,IObjectPool
         for(int i = 0; i < 10; i++)
         {
             var script = _expPool.Instantiate();
-            script.transform.position = this.transform.position;
+            var pos = new Vector3(Random.Range(0.0f, 10.0f), Random.Range(0.0f, 10.0f));
+            script.transform.position = this.transform.position + pos;
         }
         Destroy();
     }

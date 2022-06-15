@@ -1,8 +1,9 @@
-﻿using System;
+﻿//using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -10,6 +11,8 @@ public class Spawner : MonoBehaviour
     [SerializeField] float _time = 0.05f;
     [SerializeField] Enemy _prefab = null;
     [SerializeField] Transform _root = null;
+    [SerializeField] int _distance;
+    [SerializeField] EnemyStatus[] _enemyStatus = new EnemyStatus[5];
 
     float _timer = 0.0f;
     float _cRad = 0.0f;
@@ -39,12 +42,13 @@ public class Spawner : MonoBehaviour
     void Spawn()
     {
         var script = _enemyPool.Instantiate();
-        /*
-        var go = GameObject.Instantiate(_prefab);
-        var script = go.GetComponent<Enemy>();
-        */
-        _popPos.x = GameManager.Player.transform.position.x + 100 * Mathf.Cos(UnityEngine.Random.Range(-2 * Mathf.PI, 2 * MathF.PI));
-        _popPos.y = GameManager.Player.transform.position.y + 100 * Mathf.Sin(UnityEngine.Random.Range(-2 * Mathf.PI, 2 * MathF.PI));
+        script.SetStatus = _enemyStatus[Random.Range(0,_enemyStatus.Length)];
+        var randX = Random.Range(0.0f, 1.0f);
+        var randY = Random.Range(0.0f, 1.0f);
+        var pointX = Mathf.Sqrt(-2 * Mathf.Log(randX)+_distance) * Mathf.Cos(2 * Mathf.PI *randY);
+        var pointY = Mathf.Sqrt(-2 * Mathf.Log(randX)+_distance) * Mathf.Sin(2 * Mathf.PI *randY);
+        _popPos.x = GameManager.Player.transform.position.x + pointX;
+        _popPos.y = GameManager.Player.transform.position.y + pointY;
         script.transform.position = _popPos;
         _cRad += 0.1f;
     }

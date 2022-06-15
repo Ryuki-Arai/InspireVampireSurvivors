@@ -53,7 +53,6 @@ public class Player : MonoBehaviour
         _EXPslider.value = 0;
         _levelText.GetComponent<TextMeshProUGUI>();
         _col2d.GetComponent<CircleCollider2D>();
-        Debug.Log(_col2d.isTrigger);
     }
 
     private void Update()

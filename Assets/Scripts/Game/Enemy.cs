@@ -1,16 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour, IObjectPool
 {
-    [SerializeField] int HP;
-    [SerializeField] float _speed = 10;
     [SerializeField] Exp _prefab = default;
     Transform _root = default;
     SpriteRenderer _sr;
+    EnemyStatus _status;
 
-    int _hp;
+    public EnemyStatus SetStatus
+    {
+        set
+        {
+            _status = value;
+        }
+    }
+
     Rigidbody2D _rb2d;
     Animator _anim = default;
 
@@ -34,7 +41,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     {
         if (!IsActive) return;
 
-        Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _speed;
+        Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _status.speed;
         _rb2d.velocity = verocity * Time.deltaTime;
     }
 
@@ -57,7 +64,7 @@ public class Enemy : MonoBehaviour, IObjectPool
         }
         if(collision.gameObject.tag == "Player")
         {
-            _hp--;
+            _status.Hp--;
         }
     }
 
@@ -69,8 +76,8 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        _hp -= GameManager.Player.UpdateVal.atk;
-        if (_hp <= 0)
+        _status.Hp -= GameManager.Player.UpdateVal.atk;
+        if (_status.Hp <= 0)
         {
             Delete();
         }
@@ -93,7 +100,6 @@ public class Enemy : MonoBehaviour, IObjectPool
     }
     public void Create()
     {
-        _hp = HP;
         gameObject.SetActive(true);
         _isActrive = true;
     }
