@@ -46,7 +46,7 @@ public class Spawner : MonoBehaviour
         }
         if(_timer > _time)
         {
-            Spawn(GameManager.Player.UpdateVal.level < 25 ? GameManager.Player.UpdateVal.level / 5 : _enemyStatus.Length);
+            Spawn(GameManager.Player.UpdateVal.level < 25 ? (GameManager.Player.UpdateVal.level / 5) + 1 : _enemyStatus.Length);
             _timer -= _time;
         }
         if(GameManager.Player.UpdateVal.level % _bossSpawnLevel == 0 && _bossCall)
@@ -62,7 +62,7 @@ public class Spawner : MonoBehaviour
     void Spawn(int _index)
     {
         var script = _enemyPool.Instantiate();
-        script.SetStatus = _enemyStatus[Random.Range(0,_index+1)];
+        script.SetStatus = _enemyStatus[Random.Range(0,_index)];
         var _randX = Random.Range(0.0f, 1.0f);
         var _randY = Random.Range(0.0f, 1.0f);
         var posX = Mathf.Sqrt(-2 * Mathf.Log(_randX)+_distance) * Mathf.Cos(2 * Mathf.PI *_randY);

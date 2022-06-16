@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject ResultPanel;
     [SerializeField] TextAsset _lebeluptable;
     [SerializeField] CircleCollider2D _col2d;
+    [SerializeField] Transform _circle;
     [NonSerialized] public Status UpdateVal;
     Rigidbody2D _rb2d;
     Animator _anim = default;
@@ -53,6 +54,7 @@ public class Player : MonoBehaviour
         _EXPslider.value = 0;
         _levelText.GetComponent<TextMeshProUGUI>();
         _col2d.GetComponent<CircleCollider2D>();
+        _circle.GetComponent<Transform>();
     }
 
     private void Update()
@@ -81,13 +83,14 @@ public class Player : MonoBehaviour
             _EXPslider.maxValue = LevelTable.NextLevelEXP(Level);
             LevelUpPanel.SetActive(true);
         }
-        if(UpdateVal.hp <= 0)
+        if(UpdateVal.hp <= 0) ResultPanel.SetActive(true);
+        if (_EXPslider.value != UpdateVal.exp) _EXPslider.value = UpdateVal.exp;
+        if (_HPslider.value != UpdateVal.hp) _HPslider.value = UpdateVal.hp;
+        if(_col2d.radius != UpdateVal.col)
         {
-            ResultPanel.SetActive(true);
+            _col2d.radius = UpdateVal.col;
+            _circle.localScale = new Vector2(UpdateVal.col*2, UpdateVal.col*2);
         }
-        _EXPslider.value = UpdateVal.exp;
-        _HPslider.value = UpdateVal.hp;
-        _col2d.radius = UpdateVal.col;
         _levelText.text = $"Level.{UpdateVal.level}";
     }
 
