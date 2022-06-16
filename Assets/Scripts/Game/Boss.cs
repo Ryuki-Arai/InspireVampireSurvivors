@@ -26,9 +26,19 @@ public class Boss : MonoBehaviour,IObjectPool
     // Update is called once per frame
     void Update()
     {
-        //if (!IsActive) return;
+        if (!IsActive) return;
 
-        Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _speed;
+        Vector2 verocity = new Vector2();
+        if (_hp < HP * 0.8)
+        {
+            verocity = -((GameManager.Player.transform.position - transform.position) * _speed);
+        }
+        else
+        {
+            verocity = (GameManager.Player.transform.position - transform.position) * _speed;
+            
+        }
+
         _rb2d.velocity = verocity * Time.deltaTime;
     }
 

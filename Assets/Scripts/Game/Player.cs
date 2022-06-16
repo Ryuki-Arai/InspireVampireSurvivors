@@ -108,11 +108,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy") UpdateVal.hp--;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
-
+    
     [Serializable]
     public struct Status
     {
