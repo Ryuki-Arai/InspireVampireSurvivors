@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using UnityEditor;
-
-public interface IObjectPool
+﻿public interface IObjectPool
 {
     bool IsActive { get; }
     void DisactiveForInstantiate();
