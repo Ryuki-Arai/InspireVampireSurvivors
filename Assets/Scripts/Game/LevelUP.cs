@@ -12,7 +12,7 @@ public class LevelUP : MonoBehaviour
     {
         button1.text = "攻撃力増加";
         button2.text = "武器強化(頻度上昇)";
-        button3.text = "経験値回収効率上昇";
+        button3.text = "攻撃範囲増加";
         button4.text = "体力全回復";
         Time.timeScale = 0;
     }
@@ -27,7 +27,7 @@ public class LevelUP : MonoBehaviour
     public void OnButton2Clecked()
     {
         Time.timeScale = 1;
-        GameManager.Player.UpdateVal.shootTime -= 0.05f;
+        if(GameManager.Player.UpdateVal.shootTime <= 0.05f) GameManager.Player.UpdateVal.shootTime -= 0.05f;
         this.gameObject.SetActive(false);
     }
 

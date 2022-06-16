@@ -109,6 +109,7 @@ public class Enemy : MonoBehaviour, IObjectPool
         gameObject.SetActive(false);
         _anim.runtimeAnimatorController = null;
         _sr.color = Color.white;
+        GameManager.EnemyCount = 1;
         _isActrive = false;
     }
 }

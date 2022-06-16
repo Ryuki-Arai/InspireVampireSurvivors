@@ -18,6 +18,13 @@ public class GameManager
     List<Boss> _bosss = new List<Boss>();
     static public List<Boss> BossList => _instance._bosss;
 
+    int _enemysCount = 0;
+    static public int EnemyCount
+    {
+        get => _instance._enemysCount;
+        set => _instance._enemysCount += value;
+    }
+
     List<Exp> _exps = new List<Exp>();
     static public List<Exp> ExpList => _instance._exps;
     public void SetList()

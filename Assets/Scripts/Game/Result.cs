@@ -24,7 +24,7 @@ public class Result : MonoBehaviour
         _resultTime.text = $"生存時間： {_time.hour}:{_time.minute}:{(int)_time.second}";
         _level = GameManager.Player.Level;
         _resultLevel.text = $"到達レベル：Level.{_level}";
-        _enemycount = 000;
+        _enemycount = GameManager.EnemyCount;
         _resultEnemy.text = $"倒した敵の数：{_enemycount}";
     }
 

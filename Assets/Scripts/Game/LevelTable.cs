@@ -50,10 +50,16 @@ public class LevelTable
         catch(IOException e)
         {
             Debug.LogError($"ファイルを読み込めません:{e.Message}");
+            level_table.Add(1, 100);
         }
         catch(NullReferenceException e)
         {
             Debug.LogError($"ファイルが見つかりません:{e.Message}");
+            level_table.Add(1, 100);
+        }
+        catch(ArgumentException)
+        {
+            return;
         }
     }
 
