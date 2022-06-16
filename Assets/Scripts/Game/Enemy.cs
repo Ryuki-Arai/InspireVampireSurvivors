@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     [SerializeField] Exp _prefab = default;
     Transform _root = default;
     SpriteRenderer _sr;
-    EnemyStatus _status;
+    public EnemyStatus _status;
 
     public EnemyStatus SetStatus
     {
@@ -40,6 +40,11 @@ public class Enemy : MonoBehaviour, IObjectPool
     void Update()
     {
         if (!IsActive) return;
+        if (!_anim.runtimeAnimatorController)
+        {
+            _anim.runtimeAnimatorController = _status.animetion;
+            Debug.Log($"Enemyname:{_anim.runtimeAnimatorController.name}\nHP:{_status.hp}\nspeed:{_status.speed}");
+        }
 
         Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _status.speed;
         _rb2d.velocity = verocity * Time.deltaTime;
@@ -64,7 +69,7 @@ public class Enemy : MonoBehaviour, IObjectPool
         }
         if(collision.gameObject.tag == "Player")
         {
-            _status.Hp--;
+            _status.hp--;
         }
     }
 
@@ -76,8 +81,8 @@ public class Enemy : MonoBehaviour, IObjectPool
 
     public void Damage()
     {
-        _status.Hp -= GameManager.Player.UpdateVal.atk;
-        if (_status.Hp <= 0)
+        _status.hp -= GameManager.Player.UpdateVal.atk;
+        if (_status.hp <= 0)
         {
             Delete();
         }
