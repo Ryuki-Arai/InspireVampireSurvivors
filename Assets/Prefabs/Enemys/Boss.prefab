@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8657783916118478875}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b18b7c0770843f49bc32c2945882629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
-  _speed: 50
+  HP: 1000
+  _speed: 100
   _prefab: {fileID: 7498832156525642717, guid: 8fcaa3cf80f719f4e8e37a4091b65e0c, type: 3}
 --- !u!212 &8657783916118478870
 SpriteRenderer:

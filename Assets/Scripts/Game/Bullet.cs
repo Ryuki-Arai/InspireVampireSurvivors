@@ -7,7 +7,8 @@ public class Bullet : MonoBehaviour, IObjectPool
 {
     [SerializeField] float _speed = 255;
     Rigidbody2D _rb2d;
-    Enemy _target;
+    Enemy _enemyTarget;
+    Boss _bossTarget;
     Vector2 _shootVec;
 
     float _timer = 0.0f;
@@ -20,7 +21,7 @@ public class Bullet : MonoBehaviour, IObjectPool
     public void Shoot()
     {
         var list = GameManager.EnemyList;
-        _target = null;
+        _enemyTarget = null;
         float len = -1;
         Vector2 vec;
         foreach(var e in list)
@@ -29,13 +30,29 @@ public class Bullet : MonoBehaviour, IObjectPool
             vec = e.transform.position - GameManager.Player.transform.position;
             if(len == -1 || vec.magnitude < len)
             {
-                _target = e;
+                _enemyTarget = e;
                 len = vec.magnitude;
             }
         }
 
-        if (_target == null) return;
-        _shootVec = _target.transform.position - GameManager.Player.transform.position;
+        var bossList = GameManager.BossList;
+        _bossTarget = null;
+        float bossLen = -1;
+        Vector2 bossVec;
+        foreach(var b in bossList)
+        {
+            if (!b.IsActive) continue;
+            bossVec = b.transform.position - GameManager.Player.transform.position;
+            if (bossLen == -1 || bossVec.magnitude < bossLen)
+            {
+                _bossTarget = b;
+                bossLen = bossVec.magnitude;
+            }
+        }
+
+        if (_enemyTarget == null && _bossTarget == null) return;
+        else if(_enemyTarget != null && _bossTarget == null) _shootVec = _enemyTarget.transform.position - GameManager.Player.transform.position;
+        else _shootVec = _bossTarget.transform.position - GameManager.Player.transform.position;
     }
 
     void Update()

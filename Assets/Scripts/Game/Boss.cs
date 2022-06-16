@@ -81,6 +81,7 @@ public class Boss : MonoBehaviour,IObjectPool
     public void Destroy()
     {
         gameObject.SetActive(false);
+        GameObject.Find("GameObject").GetComponent<Spawner>().enabled = true;
         _isActrive = false;
     }
 }

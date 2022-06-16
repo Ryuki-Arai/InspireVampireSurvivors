@@ -43,7 +43,6 @@ public class Enemy : MonoBehaviour, IObjectPool
         if (!_anim.runtimeAnimatorController)
         {
             _anim.runtimeAnimatorController = _status.animetion;
-            Debug.Log($"Enemyname:{_anim.runtimeAnimatorController.name}\nHP:{_status.hp}\nspeed:{_status.speed}");
         }
 
         Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _status.speed;
@@ -111,6 +110,7 @@ public class Enemy : MonoBehaviour, IObjectPool
     public void Destroy()
     {
         gameObject.SetActive(false);
+        _anim.runtimeAnimatorController = null;
         _sr.color = Color.white;
         _isActrive = false;
     }
