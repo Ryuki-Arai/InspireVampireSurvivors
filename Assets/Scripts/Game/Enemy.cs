@@ -42,8 +42,8 @@ public class Enemy : MonoBehaviour, IObjectPool
             _anim.runtimeAnimatorController = _status.animetion;
         }
 
-        Vector2 verocity = (GameManager.Player.transform.position - transform.position) * _status.speed;
-        _rb2d.velocity = verocity * Time.deltaTime;
+        Vector2 verocity = (GameManager.Player.transform.position - transform.position).normalized;
+        _rb2d.velocity = verocity * _status.speed;
     }
 
     private void LateUpdate()

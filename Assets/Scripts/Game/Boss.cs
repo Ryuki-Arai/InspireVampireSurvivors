@@ -29,15 +29,15 @@ public class Boss : MonoBehaviour,IObjectPool
         Vector2 verocity = new Vector2();
         if (_hp < HP * 0.8)
         {
-            verocity = -((GameManager.Player.transform.position - transform.position) * _speed);
+            verocity = -((GameManager.Player.transform.position - transform.position).normalized);
         }
         else
         {
-            verocity = (GameManager.Player.transform.position - transform.position) * _speed;
+            verocity = (GameManager.Player.transform.position - transform.position).normalized;
             
         }
 
-        _rb2d.velocity = verocity * Time.deltaTime;
+        _rb2d.velocity = verocity * _speed;
     }
 
     private void LateUpdate()

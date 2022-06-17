@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] TextAsset _lebeluptable;
     [SerializeField] CircleCollider2D _col2d;
     [SerializeField] Transform _circle;
+    [SerializeField] TextMeshProUGUI _killCount;
     [NonSerialized] public Status UpdateVal;
     Rigidbody2D _rb2d;
     Animator _anim = default;
@@ -51,6 +52,7 @@ public class Player : MonoBehaviour
         _levelText.GetComponent<TextMeshProUGUI>();
         _col2d.GetComponent<CircleCollider2D>();
         _circle.GetComponent<Transform>();
+        _killCount.GetComponent<TextMeshProUGUI>();
     }
 
     private void Update()
@@ -88,6 +90,7 @@ public class Player : MonoBehaviour
             _circle.localScale = new Vector2(UpdateVal.col*2, UpdateVal.col*2);
         }
         _levelText.text = $"Level.{UpdateVal.level}";
+        _killCount.text = $"Kill:{GameManager.EnemyCount}";
     }
 
     private void LateUpdate()
