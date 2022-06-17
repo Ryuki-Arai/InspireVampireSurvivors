@@ -5,6 +5,7 @@ public class Boss : MonoBehaviour,IObjectPool
     [SerializeField] int HP;
     [SerializeField] float _speed = 10;
     [SerializeField] Exp _prefab = default;
+    [SerializeField] int _distance;
     Transform _root = default;
 
     int _hp;
@@ -38,6 +39,9 @@ public class Boss : MonoBehaviour,IObjectPool
         }
 
         _rb2d.velocity = verocity * _speed;
+
+        if (Vector2.Distance(GameManager.Player.transform.position, transform.position) > _distance) Destroy();
+        Debug.Log(Vector2.Distance(GameManager.Player.transform.position, transform.position));
     }
 
     private void LateUpdate()
@@ -90,7 +94,13 @@ public class Boss : MonoBehaviour,IObjectPool
     {
         gameObject.SetActive(false);
         GameManager.EnemyCount = 1;
-        GameObject.Find("GameObject").GetComponent<Spawner>().enabled = true;
         _isActrive = false;
+        bool _reStart = true;
+        foreach (var boss in GameManager.BossList)
+        {
+            if (boss.IsActive) _reStart = false;
+        }
+        Debug.Log(_reStart);
+        if (_reStart) GameObject.Find("GameObject").GetComponent<Spawner>().enabled = true;
     }
 }

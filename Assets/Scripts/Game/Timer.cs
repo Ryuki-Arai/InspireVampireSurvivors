@@ -32,12 +32,12 @@ public class Timer : MonoBehaviour
     void Update()
     {
         _time.second += Time.deltaTime;
-        if (_time.second > 60)
+        if (_time.second > 59)
         {
             _time.minute++;
             _time.second = 0;
         }
-        if (_time.minute > 60)
+        if (_time.minute > 59)
         {
             _time.hour++;
             _time.minute = 0;

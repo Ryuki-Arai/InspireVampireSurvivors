@@ -51,6 +51,7 @@ MonoBehaviour:
   HP: 500
   _speed: 45
   _prefab: {fileID: 7498832156525642717, guid: 8fcaa3cf80f719f4e8e37a4091b65e0c, type: 3}
+  _distance: 300
 --- !u!212 &8657783916118478870
 SpriteRenderer:
   m_ObjectHideFlags: 0
