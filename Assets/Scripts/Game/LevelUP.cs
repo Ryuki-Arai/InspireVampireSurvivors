@@ -27,7 +27,7 @@ public class LevelUP : MonoBehaviour
     public void OnButton2Clecked()
     {
         Time.timeScale = 1;
-        if(GameManager.Player.UpdateVal.shootTime <= 0.05f) GameManager.Player.UpdateVal.shootTime -= 0.05f;
+        if(GameManager.Player.UpdateVal.shootTime >= 0.05f) GameManager.Player.UpdateVal.shootTime -= 0.05f;
         this.gameObject.SetActive(false);
     }
 

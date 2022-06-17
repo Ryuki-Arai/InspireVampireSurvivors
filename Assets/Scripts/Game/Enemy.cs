@@ -44,6 +44,8 @@ public class Enemy : MonoBehaviour, IObjectPool
 
         Vector2 verocity = (GameManager.Player.transform.position - transform.position).normalized;
         _rb2d.velocity = verocity * _status.speed;
+
+        if (_status.hp <= 0) Delete();       
     }
 
     private void LateUpdate()
@@ -63,10 +65,7 @@ public class Enemy : MonoBehaviour, IObjectPool
             _sr.color = Color.red;
             //_anim.SetTrigger("Damage");
         }
-        if(collision.gameObject.tag == "Player")
-        {
-            _status.hp--;
-        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -78,10 +77,6 @@ public class Enemy : MonoBehaviour, IObjectPool
     public void Damage()
     {
         _status.hp -= GameManager.Player.UpdateVal.atk;
-        if (_status.hp <= 0)
-        {
-            Delete();
-        }
     }
 
     void Delete()

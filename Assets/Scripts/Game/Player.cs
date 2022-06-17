@@ -76,10 +76,13 @@ public class Player : MonoBehaviour
         }
         if (UpdateVal.exp >= _EXPslider.maxValue)
         {
-            if(!LevelUpPanel.activeSelf)UpdateVal.level++;
-            UpdateVal.exp -= (int)_EXPslider.maxValue;
-            _EXPslider.maxValue = LevelTable.NextLevelEXP(Level);
-            LevelUpPanel.SetActive(true);
+            if (!LevelUpPanel.activeSelf)
+            {
+                UpdateVal.level++;
+                UpdateVal.exp -= (int)_EXPslider.maxValue;
+                _EXPslider.maxValue = LevelTable.NextLevelEXP(Level);
+                LevelUpPanel.SetActive(true);
+            }
         }
         if(UpdateVal.hp <= 0) ResultPanel.SetActive(true);
         if (_EXPslider.value != UpdateVal.exp) _EXPslider.value = UpdateVal.exp;
@@ -100,6 +103,14 @@ public class Player : MonoBehaviour
             Vector2 vector = _rb2d.velocity;
             _anim.SetFloat("VectorX", vector.x);
             _anim.SetFloat("VectorY", vector.y);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<Enemy>()._status.hp--;
         }
     }
 

@@ -41,7 +41,6 @@ public class Boss : MonoBehaviour,IObjectPool
         _rb2d.velocity = verocity * _speed;
 
         if (Vector2.Distance(GameManager.Player.transform.position, transform.position) > _distance) Destroy();
-        Debug.Log(Vector2.Distance(GameManager.Player.transform.position, transform.position));
     }
 
     private void LateUpdate()
@@ -100,7 +99,6 @@ public class Boss : MonoBehaviour,IObjectPool
         {
             if (boss.IsActive) _reStart = false;
         }
-        Debug.Log(_reStart);
         if (_reStart) GameObject.Find("GameObject").GetComponent<Spawner>().enabled = true;
     }
 }
