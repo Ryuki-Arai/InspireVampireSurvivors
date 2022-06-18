@@ -20,6 +20,7 @@ public class Spawner : MonoBehaviour
 
     private void Start()
     {
+        _time += 0.05f;
         _enemyPool.SetBaseObj(_enemy, _root);
         _enemyPool.SetCapacity(1000);
         GameManager.Instance.SetList();
@@ -47,6 +48,11 @@ public class Spawner : MonoBehaviour
         {
             BossSpawn(GameManager.Player.UpdateVal.level / _bossSpawnLevel);
         }
+    }
+
+    private void OnEnable()
+    {
+        _time -= _time > 0.05f ? 0.05f : 0;
     }
 
     /// <summary>
